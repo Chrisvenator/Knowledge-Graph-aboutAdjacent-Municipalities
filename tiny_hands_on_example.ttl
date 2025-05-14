@@ -1,0 +1,18 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:EiffelTower a ns1:Monument ;
+    ns1:located_in ns1:Paris .
+
+ns1:Riesenrad a ns1:Monument ;
+    ns1:located_in ns1:Vienna .
+
+ns1:Austria a ns1:Country .
+
+ns1:France a ns1:Country .
+
+ns1:Paris a ns1:City ;
+    ns1:country ns1:France .
+
+ns1:Vienna a ns1:City ;
+    ns1:country ns1:Austria .
+
