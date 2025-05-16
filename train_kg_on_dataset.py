@@ -11,6 +11,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 
 input_file = "dataset.ttl"
+save_png_as = "Municipalities.png"
 
 # Check if the file exists in the current directory
 if not os.path.exists(input_file):
@@ -258,8 +259,8 @@ def visualize_embeddings():
         plt.tight_layout()
 
         # Save the figure
-        plt.savefig('tiny_hands_on_example.png')
-        print("\nEmbedding visualization saved as 'tiny_hands_on_example.png'")
+        plt.savefig(save_png_as)
+        print("\nEmbedding visualization saved as {}".format(save_png_as))
     except ImportError:
         print("Visualization skipped - sklearn not available")
     except Exception as e:
