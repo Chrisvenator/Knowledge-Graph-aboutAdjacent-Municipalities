@@ -1,4 +1,3 @@
-# pip install rdflib
 from rdflib import Graph, Namespace, RDF, URIRef, Literal
 
 g = Graph()
