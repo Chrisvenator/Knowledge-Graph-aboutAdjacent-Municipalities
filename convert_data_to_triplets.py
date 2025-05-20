@@ -201,8 +201,7 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
     logger.info("Building RDF graph...")
 
     g = Graph()
-    EX = Namespace("http://example.org/")
-    g.bind("ex", EX)
+    g.bind("atmun", EX)
     g.bind("void", VOID)
     g.bind("dcterms", DCTERMS)
 
@@ -460,5 +459,5 @@ def main():
 
 if __name__ == "__main__":
     # Define EX namespace at global level for get_municipality_uri
-    EX = Namespace("http://example.org/")
+    EX = Namespace("http://municipalities.austria.at/")
     main()
