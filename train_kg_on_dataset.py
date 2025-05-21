@@ -260,7 +260,8 @@ def main():
     args = parse_args()
 
     # Check if GPU is available
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda')
     print(f"Using device: {device}")
 
     # Train a new model

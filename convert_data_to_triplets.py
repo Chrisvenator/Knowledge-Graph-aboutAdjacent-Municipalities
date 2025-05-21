@@ -19,6 +19,7 @@ import argparse
 import logging
 from typing import Optional, Tuple, Dict, Any, List, Callable
 from tqdm import tqdm
+from pykeen.triples import TriplesFactory
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -81,6 +82,9 @@ def parse_int_safe(value: str) -> Optional[int]:
 
 def parse_float_safe(value: str) -> Optional[float]:
     """Safely parse floats with Austrian number formatting ("," as decimal separator)."""
+    if value == '0':
+        return None  # skip 0 values that really mean “missing”
+
     try:
         value = clean_bom(value.strip())
         if not value:
@@ -392,7 +396,8 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
             raw_val = row.get(col) or row.get(f"\ufeff{col}")
             if raw_val and raw_val.strip():
                 if value_parsed := parser(raw_val):
-                    batch.add(record_uri, EX[prop], Literal(value_parsed, datatype=dtype))
+                    if value_parsed is not None:  # leave out NaNs, empty strings *and* zeros
+                        batch.add(record_uri, EX[prop], Literal(value_parsed, datatype=dtype))
 
     # Find municipalities without finance data
     for muni_uri in all_municipality_uris:

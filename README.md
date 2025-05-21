@@ -13,8 +13,8 @@ This Streamlit web application allows you to explore knowledge graph embeddings 
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/yourusername/municipality-kg-explorer.git
-   cd municipality-kg-explorer
+   git clone https://github.com/Chrisvenator/Knowledge-Graph-aboutAdjacent-Municipalities
+   cd Knowledge-Graph-aboutAdjacent-Municipalities
    ```
 
 2. **Create a virtual environment**
@@ -28,22 +28,13 @@ This Streamlit web application allows you to explore knowledge graph embeddings 
    pip install -r requirements.txt
    ```
 
-4. **Prepare your model data**
-   Place your trained PyKEEN model and entity/relation mappings in a directory (default: "model").
-   Your model directory should contain:
-   - `model_state.pt`: The PyTorch state dict of your trained model
-   - `model_config.json`: Configuration of your model including embedding dimension
-   - `mappings.json`: Entity and relation mappings
-
-   Alternatively, you can create sample data for testing:
-   ```
-   python create_sample_data.py
-   ```
-
-5. **Run the app**
+4. **Run the app**
    ```
    streamlit run kg_explorer_app.py
    ```
+
+_You can use a custom model by pasting its folder into the root dir of this project and then 
+specifying the folder name on the left side_
 
 ## Requirements
 
