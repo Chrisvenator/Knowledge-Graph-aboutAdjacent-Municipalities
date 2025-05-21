@@ -1,0 +1,7 @@
+{
+  "model_class": "TransE",
+  "embedding_dim": 50,
+  "scoring_fct_norm": 1,
+  "entity_count": 31834,
+  "relation_count": 41
+}
