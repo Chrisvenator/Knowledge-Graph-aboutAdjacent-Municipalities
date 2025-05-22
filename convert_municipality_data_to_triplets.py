@@ -73,8 +73,8 @@ def parse_int_safe(value: str) -> Optional[int]:
     """Safely parse integer strings that may contain thousand‑separators or a BOM."""
     try:
         value = clean_bom(value.strip())
-        if not value:
-            return None
+        if not value or value == "0":
+            return None  # Return None for empty values and zeros to skip them
         return int(value.replace(".", "").replace(",", ""))
     except (ValueError, TypeError):
         return None
@@ -82,14 +82,14 @@ def parse_int_safe(value: str) -> Optional[int]:
 
 def parse_float_safe(value: str) -> Optional[float]:
     """Safely parse floats with Austrian number formatting ("," as decimal separator)."""
-    if value == '0':
-        return None  # skip 0 values that really mean “missing”
-
     try:
         value = clean_bom(value.strip())
-        if not value:
-            return None
-        return float(value.replace(".", "").replace(",", "."))
+        if not value or value == "0" or value == "0,00":
+            return None  # Return None for empty values and zeros to skip them
+        parsed_value = float(value.replace(".", "").replace(",", "."))
+        if parsed_value == 0.0:
+            return None  # Also skip float zeros
+        return parsed_value
     except (ValueError, TypeError):
         return None
 
@@ -259,7 +259,12 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
     for muni_id, name in tqdm(id2name.items(), desc="Processing municipality mappings"):
         muni_uri = get_municipality_uri(muni_id, name)
         batch.add(muni_uri, RDF.type, EX.Municipality)
-        batch.add(muni_uri, EX.municipalityId, Literal(parse_int_safe(muni_id) or 0, datatype=XSD.integer))
+
+        # Only add municipality ID if it's not zero or empty
+        parsed_id = parse_int_safe(muni_id)
+        if parsed_id is not None:
+            batch.add(muni_uri, EX.municipalityId, Literal(parsed_id, datatype=XSD.integer))
+
         batch.add(muni_uri, RDFS.label, Literal(name))
         all_municipality_uris.add(muni_uri)
 
@@ -271,7 +276,11 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
     for city, neighbours in tqdm(adjacency_data.items(), desc="Processing adjacency data"):
         city_uri = get_municipality_uri("", city)  # Use name-based URI for adjacency data
         batch.add(city_uri, RDF.type, EX.Municipality)
-        batch.add(city_uri, EX.hasNeighborCount, Literal(len(neighbours), datatype=XSD.integer))
+
+        # Only add neighbor count if there are actual neighbors
+        if len(neighbours) > 0:
+            batch.add(city_uri, EX.hasNeighborCount, Literal(len(neighbours), datatype=XSD.integer))
+
         batch.add(city_uri, RDFS.label, Literal(city))
         all_municipality_uris.add(city_uri)
 
@@ -322,15 +331,16 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
             batch.add(city_uri, RDF.type, EX.Municipality)
             all_municipality_uris.add(city_uri)
 
-        # numeric literals
+        # numeric literals - only add if value is not None, 0, or empty
         for json_key, prop in field_map_election.items():
-            if (value := rec.get(json_key)) is not None:
+            value = rec.get(json_key)
+            if value is not None and value != 0 and str(value).strip():
                 batch.add(city_uri, EX[prop], Literal(value, datatype=XSD.integer))
 
         # Calculate election participation rate
         eligible = rec.get("eligible")
         votes = rec.get("votes")
-        if eligible and votes and eligible > 0:
+        if eligible and votes and eligible > 0 and votes > 0:
             participation_rate = votes / eligible
             batch.add(city_uri, EX.electionParticipationRate,
                       Literal(round(participation_rate, 4), datatype=XSD.decimal))
@@ -391,13 +401,13 @@ def build_graph(adjacency_data, election_data, id2name, finance_rows):
         batch.add(record_uri, EX.forMunicipality, municipality_uri)
         batch.add(record_uri, EX.year, Literal(int(year_part), datatype=XSD.gYear))
 
-        # numeric literals for every finance column
+        # numeric literals for every finance column - only add non-zero, non-empty values
         for col, (prop, parser, dtype) in field_map_finance.items():
             raw_val = row.get(col) or row.get(f"\ufeff{col}")
             if raw_val and raw_val.strip():
-                if value_parsed := parser(raw_val):
-                    if value_parsed is not None:  # leave out NaNs, empty strings *and* zeros
-                        batch.add(record_uri, EX[prop], Literal(value_parsed, datatype=dtype))
+                value_parsed = parser(raw_val)
+                if value_parsed is not None:  # parser already handles zeros and empty values
+                    batch.add(record_uri, EX[prop], Literal(value_parsed, datatype=dtype))
 
     # Find municipalities without finance data
     for muni_uri in all_municipality_uris:
@@ -456,6 +466,13 @@ def main():
         logger.info(f"Total predicates: {len(set(p for s, p, o in g))}")
         objects = set(o for s, p, o in g if not isinstance(o, Literal))
         logger.info(f"Total objects (excluding literals): {len(objects)}")
+
+        g.query("""SELECT (COUNT(*) AS ?numericIRIs)
+WHERE {
+  ?s ?p ?o .
+  FILTER(isIRI(?o) && REGEX(STR(?o), "^https?://.*[0-9]+$"))
+}
+""")
 
     except Exception as e:
         logger.error(f"Error in main function: {e}")

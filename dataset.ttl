@@ -14,7 +14,7 @@ atmun:MunicipalityFinancials a rdfs:Class ;
     rdfs:comment "Financial data for an Austrian municipality in a specific year" .
 
 atmun:AustrianMunicipalitiesDataset a void:Dataset ;
-    dcterms:created "2025-05-20T17:12:11.862848"^^xsd:dateTime ;
+    dcterms:created "2025-05-22T13:36:02.617207"^^xsd:dateTime ;
     dcterms:creator "RDF Conversion Script" ;
     dcterms:description "Austrian municipalities data including adjacency, election results, and finances" ;
     void:dataDump <file://dataset.ttl> ;
@@ -29167,18 +29167,13 @@ atmun:Jungholz a atmun:Municipality ;
     atmun:electionParticipationRate 0.5361 ;
     atmun:eligibleVoters 97 ;
     atmun:hasNeighborCount 1 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70818 ;
     atmun:spatialId "G70818" ;
     atmun:validBallots 52 ;
     atmun:votesFPOe 5 ;
     atmun:votesGruene 1 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
-    atmun:votesOeVP 45 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 0 ;
-    atmun:votesWandl 0 .
+    atmun:votesOeVP 45 .
 
 atmun:Tschanigraben a atmun:Municipality ;
     rdfs:label "Tschanigraben" ;
@@ -29191,15 +29186,10 @@ atmun:Tschanigraben a atmun:Municipality ;
     atmun:municipalityId 10423 ;
     atmun:spatialId "G10423" ;
     atmun:validBallots 37 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 5 ;
     atmun:votesGruene 1 ;
-    atmun:votesKPOe 0 ;
-    atmun:votesNeos 0 ;
     atmun:votesOeVP 10 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 21 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 21 .
 
 atmun:Aflenz a atmun:Municipality ;
     rdfs:label "Aflenz" ;
@@ -29240,8 +29230,7 @@ atmun:Amaliendorf_Aalfang a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 157 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 182 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 182 .
 
 atmun:Bad_Radkersburg a atmun:Municipality ;
     rdfs:label "Bad Radkersburg" ;
@@ -29298,15 +29287,12 @@ atmun:Bildein a atmun:Municipality ;
     atmun:municipalityId 10426 ;
     atmun:spatialId "G10426" ;
     atmun:validBallots 213 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 36 ;
     atmun:votesGruene 14 ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 3 ;
     atmun:votesOeVP 134 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 25 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 25 .
 
 atmun:Breitenwang a atmun:Municipality ;
     rdfs:label "Breitenwang" ;
@@ -29406,7 +29392,6 @@ atmun:Freinberg a atmun:Municipality ;
     atmun:validBallots 559 ;
     atmun:votesFPOe 107 ;
     atmun:votesGruene 30 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 321 ;
     atmun:votesPilz 3 ;
@@ -29448,12 +29433,10 @@ atmun:Haugschlag a atmun:Municipality ;
     atmun:validBallots 262 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 137 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 48 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 48 .
 
 atmun:Hohenweiler a atmun:Municipality ;
     rdfs:label "Hohenweiler" ;
@@ -29494,8 +29477,7 @@ atmun:Iselsberg_Stronach a atmun:Municipality ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 140 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 23 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 23 .
 
 atmun:Jedenspeigen a atmun:Municipality ;
     rdfs:label "Jedenspeigen" ;
@@ -29532,7 +29514,6 @@ atmun:Klaffer_am_Hochficht a atmun:Municipality ;
     atmun:validBallots 668 ;
     atmun:votesFPOe 169 ;
     atmun:votesGruene 35 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 25 ;
     atmun:votesOeVP 321 ;
     atmun:votesPilz 4 ;
@@ -29551,7 +29532,6 @@ atmun:Klingenbach a atmun:Municipality ;
     atmun:municipalityId 10305 ;
     atmun:spatialId "G10305" ;
     atmun:validBallots 626 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 86 ;
     atmun:votesGruene 30 ;
     atmun:votesKPOe 2 ;
@@ -29573,15 +29553,13 @@ atmun:Loretto a atmun:Municipality ;
     atmun:municipalityId 10320 ;
     atmun:spatialId "G10320" ;
     atmun:validBallots 282 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 48 ;
     atmun:votesGruene 18 ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 110 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 78 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 78 .
 
 atmun:Lutzmannsburg a atmun:Municipality ;
     rdfs:label "Lutzmannsburg" ;
@@ -29595,15 +29573,13 @@ atmun:Lutzmannsburg a atmun:Municipality ;
     atmun:municipalityId 10810 ;
     atmun:spatialId "G10810" ;
     atmun:validBallots 520 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 93 ;
     atmun:votesGruene 21 ;
     atmun:votesKPOe 3 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 235 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 131 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 131 .
 
 atmun:Matrei_am_Brenner a atmun:Municipality ;
     rdfs:label "Matrei am Brenner" ;
@@ -29639,7 +29615,6 @@ atmun:Mogersdorf a atmun:Municipality ;
     atmun:municipalityId 10506 ;
     atmun:spatialId "G10506" ;
     atmun:validBallots 640 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 132 ;
     atmun:votesGruene 38 ;
     atmun:votesKPOe 6 ;
@@ -29663,12 +29638,10 @@ atmun:Nauders a atmun:Municipality ;
     atmun:validBallots 672 ;
     atmun:votesFPOe 81 ;
     atmun:votesGruene 35 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 41 ;
     atmun:votesOeVP 457 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 56 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 56 .
 
 atmun:Neumarkt_im_Hausruckkreis a atmun:Municipality ;
     rdfs:label "Neumarkt im Hausruckkreis" ;
@@ -29745,10 +29718,8 @@ atmun:Schandorf a atmun:Municipality ;
     atmun:municipalityId 10932 ;
     atmun:spatialId "G10932" ;
     atmun:validBallots 150 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 20 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 3 ;
     atmun:votesOeVP 63 ;
     atmun:votesPilz 1 ;
@@ -29769,12 +29740,10 @@ atmun:Schattwald a atmun:Municipality ;
     atmun:validBallots 156 ;
     atmun:votesFPOe 8 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 99 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 7 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 7 .
 
 atmun:Schwarzach_im_Pongau a atmun:Municipality ;
     rdfs:label "Schwarzach im Pongau" ;
@@ -29811,12 +29780,10 @@ atmun:Schwarzenberg_am_Böhmerwald a atmun:Municipality ;
     atmun:validBallots 319 ;
     atmun:votesFPOe 51 ;
     atmun:votesGruene 14 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 185 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 54 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 54 .
 
 atmun:Schärding a atmun:Municipality ;
     rdfs:label "Schärding" ;
@@ -29853,12 +29820,9 @@ atmun:Sibratsgfäll a atmun:Municipality ;
     atmun:validBallots 216 ;
     atmun:votesFPOe 21 ;
     atmun:votesGruene 24 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 156 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 7 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 7 .
 
 atmun:St._Jakob_in_Haus a atmun:Municipality ;
     rdfs:label "St. Jakob in Haus" ;
@@ -29878,8 +29842,7 @@ atmun:St._Jakob_in_Haus a atmun:Municipality ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 225 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 45 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 45 .
 
 atmun:Stallehr a atmun:Municipality ;
     rdfs:label "Stallehr" ;
@@ -29895,7 +29858,6 @@ atmun:Stallehr a atmun:Municipality ;
     atmun:validBallots 115 ;
     atmun:votesFPOe 19 ;
     atmun:votesGruene 14 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 55 ;
     atmun:votesPilz 2 ;
@@ -29916,7 +29878,6 @@ atmun:Suben a atmun:Municipality ;
     atmun:validBallots 555 ;
     atmun:votesFPOe 111 ;
     atmun:votesGruene 52 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 251 ;
     atmun:votesPilz 6 ;
@@ -30007,12 +29968,9 @@ atmun:Zöblen a atmun:Municipality ;
     atmun:validBallots 98 ;
     atmun:votesFPOe 11 ;
     atmun:votesGruene 8 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 76 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 1 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 1 .
 
 atmun:Achenkirch a atmun:Municipality ;
     rdfs:label "Achenkirch" ;
@@ -30093,7 +30051,6 @@ atmun:Andau a atmun:Municipality ;
     atmun:municipalityId 10701 ;
     atmun:spatialId "G10701" ;
     atmun:validBallots 1434 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 299 ;
     atmun:votesGruene 44 ;
     atmun:votesKPOe 1 ;
@@ -30160,7 +30117,6 @@ atmun:Bad_Sauerbrunn a atmun:Municipality ;
     atmun:municipalityId 10611 ;
     atmun:spatialId "G10611" ;
     atmun:validBallots 1166 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 233 ;
     atmun:votesGruene 192 ;
     atmun:votesKPOe 8 ;
@@ -30208,7 +30164,6 @@ atmun:Berg a atmun:Municipality ;
     atmun:validBallots 383 ;
     atmun:votesFPOe 49 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 178 ;
     atmun:votesPilz 8 ;
@@ -30230,12 +30185,10 @@ atmun:Bichlbach a atmun:Municipality ;
     atmun:validBallots 323 ;
     atmun:votesFPOe 35 ;
     atmun:votesGruene 24 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 197 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 31 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 31 .
 
 atmun:Deutsch_Griffen a atmun:Municipality ;
     rdfs:label "Deutsch-Griffen" ;
@@ -30252,12 +30205,9 @@ atmun:Deutsch_Griffen a atmun:Municipality ;
     atmun:validBallots 405 ;
     atmun:votesFPOe 198 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 133 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 63 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 63 .
 
 atmun:Deutsch_Jahrndorf a atmun:Municipality ;
     rdfs:label "Deutsch Jahrndorf" ;
@@ -30272,10 +30222,8 @@ atmun:Deutsch_Jahrndorf a atmun:Municipality ;
     atmun:municipalityId 10704 ;
     atmun:spatialId "G10704" ;
     atmun:validBallots 339 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 74 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 112 ;
     atmun:votesPilz 5 ;
@@ -30300,7 +30248,6 @@ atmun:Edlbach a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 25 ;
     atmun:votesOeVP 161 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 52 ;
     atmun:votesWandl 1 .
 
@@ -30319,7 +30266,6 @@ atmun:Edlitz a atmun:Municipality ;
     atmun:validBallots 520 ;
     atmun:votesFPOe 82 ;
     atmun:votesGruene 46 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 285 ;
     atmun:votesPilz 4 ;
@@ -30429,12 +30375,10 @@ atmun:Feistritz_an_der_Gail a atmun:Municipality ;
     atmun:validBallots 330 ;
     atmun:votesFPOe 56 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 154 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 80 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 80 .
 
 atmun:Forchach a atmun:Municipality ;
     rdfs:label "Forchach" ;
@@ -30451,12 +30395,10 @@ atmun:Forchach a atmun:Municipality ;
     atmun:validBallots 131 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 5 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 70 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 9 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 9 .
 
 atmun:Friedberg a atmun:Municipality ;
     rdfs:label "Friedberg" ;
@@ -30561,12 +30503,10 @@ atmun:Galtür a atmun:Municipality ;
     atmun:validBallots 413 ;
     atmun:votesFPOe 49 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 24 ;
     atmun:votesOeVP 301 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Golling_an_der_Erlauf a atmun:Municipality ;
     rdfs:label "Golling an der Erlauf" ;
@@ -30654,8 +30594,7 @@ atmun:Gschnitz a atmun:Municipality ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 129 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 22 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 22 .
 
 atmun:Göming a atmun:Municipality ;
     rdfs:label "Göming" ;
@@ -30672,7 +30611,6 @@ atmun:Göming a atmun:Municipality ;
     atmun:validBallots 473 ;
     atmun:votesFPOe 64 ;
     atmun:votesGruene 66 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 34 ;
     atmun:votesOeVP 267 ;
     atmun:votesPilz 5 ;
@@ -30738,12 +30676,10 @@ atmun:Hirschbach a atmun:Municipality ;
     atmun:validBallots 354 ;
     atmun:votesFPOe 52 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 162 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 99 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 99 .
 
 atmun:Hirtenberg a atmun:Municipality ;
     rdfs:label "Hirtenberg" ;
@@ -30786,8 +30722,7 @@ atmun:Hohenthurn a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 167 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 134 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 134 .
 
 atmun:Hollersbach_im_Pinzgau a atmun:Municipality ;
     rdfs:label "Hollersbach im Pinzgau" ;
@@ -30870,12 +30805,10 @@ atmun:Ischgl a atmun:Municipality ;
     atmun:validBallots 784 ;
     atmun:votesFPOe 82 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 610 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 24 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 24 .
 
 atmun:Jabing a atmun:Municipality ;
     rdfs:label "Jabing" ;
@@ -30890,15 +30823,13 @@ atmun:Jabing a atmun:Municipality ;
     atmun:municipalityId 10930 ;
     atmun:spatialId "G10930" ;
     atmun:validBallots 450 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 79 ;
     atmun:votesGruene 24 ;
     atmun:votesKPOe 4 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 170 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 141 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 141 .
 
 atmun:Julbach a atmun:Municipality ;
     rdfs:label "Julbach" ;
@@ -30957,13 +30888,9 @@ atmun:Kleinmürbisch a atmun:Municipality ;
     atmun:municipalityId 10422 ;
     atmun:spatialId "G10422" ;
     atmun:validBallots 131 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 21 ;
     atmun:votesGruene 2 ;
-    atmun:votesKPOe 0 ;
-    atmun:votesNeos 0 ;
     atmun:votesOeVP 61 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 46 ;
     atmun:votesWandl 1 .
 
@@ -31046,7 +30973,6 @@ atmun:Loipersbach_im_Burgenland a atmun:Municipality ;
     atmun:municipalityId 10604 ;
     atmun:spatialId "G10604" ;
     atmun:validBallots 681 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 176 ;
     atmun:votesGruene 57 ;
     atmun:votesKPOe 2 ;
@@ -31182,7 +31108,6 @@ atmun:Mariastein a atmun:Municipality ;
     atmun:validBallots 184 ;
     atmun:votesFPOe 29 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 88 ;
     atmun:votesPilz 1 ;
@@ -31230,8 +31155,7 @@ atmun:Mayrhof a atmun:Municipality ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 88 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 8 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 8 .
 
 atmun:Meiningen a atmun:Municipality ;
     rdfs:label "Meiningen" ;
@@ -31264,7 +31188,6 @@ atmun:Mils_bei_Imst a atmun:Municipality ;
     atmun:electionParticipationRate 0.6895 ;
     atmun:eligibleVoters 467 ;
     atmun:hasNeighborCount 3 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70210 ;
     atmun:spatialId "G70210" ;
     atmun:validBallots 322 ;
@@ -31274,8 +31197,7 @@ atmun:Mils_bei_Imst a atmun:Municipality ;
     atmun:votesNeos 64 ;
     atmun:votesOeVP 133 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 37 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 37 .
 
 atmun:Minihof_Liebau a atmun:Municipality ;
     rdfs:label "Minihof-Liebau" ;
@@ -31341,8 +31263,7 @@ atmun:Moorbad_Harbach a atmun:Municipality ;
     atmun:votesNeos 37 ;
     atmun:votesOeVP 179 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 77 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 77 .
 
 atmun:Moschendorf a atmun:Municipality ;
     rdfs:label "Moschendorf" ;
@@ -31357,15 +31278,12 @@ atmun:Moschendorf a atmun:Municipality ;
     atmun:municipalityId 10428 ;
     atmun:spatialId "G10428" ;
     atmun:validBallots 253 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 148 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 56 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 56 .
 
 atmun:Mäder a atmun:Municipality ;
     rdfs:label "Mäder" ;
@@ -31431,8 +31349,7 @@ atmun:Nebelberg a atmun:Municipality ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 228 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 82 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 82 .
 
 atmun:Neudorf a atmun:Municipality ;
     rdfs:label "Neudorf" ;
@@ -31450,12 +31367,10 @@ atmun:Neudorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 31 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 158 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 128 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 128 .
 
 atmun:Neuhaus a atmun:Municipality ;
     rdfs:label "Neuhaus" ;
@@ -31520,8 +31435,7 @@ atmun:Niederwölz a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 153 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 58 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 58 .
 
 atmun:Niklasdorf a atmun:Municipality ;
     rdfs:label "Niklasdorf" ;
@@ -31583,7 +31497,6 @@ atmun:Oberloisdorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 78 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 188 ;
     atmun:votesPilz 5 ;
@@ -31605,7 +31518,6 @@ atmun:Obernberg_am_Brenner a atmun:Municipality ;
     atmun:validBallots 216 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 127 ;
     atmun:votesPilz 1 ;
@@ -31627,7 +31539,6 @@ atmun:Obernberg_am_Inn a atmun:Municipality ;
     atmun:validBallots 550 ;
     atmun:votesFPOe 153 ;
     atmun:votesGruene 51 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 207 ;
     atmun:votesPilz 3 ;
@@ -31674,9 +31585,7 @@ atmun:Ottenthal a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 264 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 25 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 25 .
 
 atmun:Otterthal a atmun:Municipality ;
     rdfs:label "Otterthal" ;
@@ -31697,8 +31606,7 @@ atmun:Otterthal a atmun:Municipality ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 156 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 68 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 68 .
 
 atmun:Pamhagen a atmun:Municipality ;
     rdfs:label "Pamhagen" ;
@@ -31760,12 +31668,10 @@ atmun:Pians a atmun:Municipality ;
     atmun:validBallots 406 ;
     atmun:votesFPOe 49 ;
     atmun:votesGruene 30 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 248 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 52 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 52 .
 
 atmun:Pinswang a atmun:Municipality ;
     rdfs:label "Pinswang" ;
@@ -31786,8 +31692,7 @@ atmun:Pinswang a atmun:Municipality ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 98 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 20 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 20 .
 
 atmun:Pitzenberg a atmun:Municipality ;
     rdfs:label "Pitzenberg" ;
@@ -31808,8 +31713,7 @@ atmun:Pitzenberg a atmun:Municipality ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 130 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 43 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 43 .
 
 atmun:Polling_in_Tirol a atmun:Municipality ;
     rdfs:label "Polling in Tirol" ;
@@ -31870,12 +31774,10 @@ atmun:Rabensburg a atmun:Municipality ;
     atmun:validBallots 513 ;
     atmun:votesFPOe 122 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 6 ;
     atmun:votesOeVP 163 ;
     atmun:votesPilz 14 ;
-    atmun:votesSPOe 197 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 197 .
 
 atmun:Rattenberg a atmun:Municipality ;
     rdfs:label "Rattenberg" ;
@@ -31886,7 +31788,6 @@ atmun:Rattenberg a atmun:Municipality ;
     atmun:electionParticipationRate 0.6055 ;
     atmun:eligibleVoters 256 ;
     atmun:hasNeighborCount 3 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70521 ;
     atmun:spatialId "G70521" ;
     atmun:validBallots 155 ;
@@ -31912,7 +31813,6 @@ atmun:Rechnitz a atmun:Municipality ;
     atmun:municipalityId 10919 ;
     atmun:spatialId "G10919" ;
     atmun:validBallots 1581 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 360 ;
     atmun:votesGruene 59 ;
     atmun:votesKPOe 1 ;
@@ -31937,7 +31837,6 @@ atmun:Redleiten a atmun:Municipality ;
     atmun:validBallots 255 ;
     atmun:votesFPOe 82 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 94 ;
     atmun:votesPilz 1 ;
@@ -32001,7 +31900,6 @@ atmun:Ritzing a atmun:Municipality ;
     atmun:municipalityId 10820 ;
     atmun:spatialId "G10820" ;
     atmun:validBallots 524 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 92 ;
     atmun:votesGruene 31 ;
     atmun:votesKPOe 5 ;
@@ -32096,8 +31994,7 @@ atmun:Sankt_Andrä_im_Lungau a atmun:Municipality ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 224 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 50 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 50 .
 
 atmun:Scheffau_am_Wilden_Kaiser a atmun:Municipality ;
     rdfs:label "Scheffau am Wilden Kaiser" ;
@@ -32118,8 +32015,7 @@ atmun:Scheffau_am_Wilden_Kaiser a atmun:Municipality ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 422 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 26 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 26 .
 
 atmun:Schrattenberg a atmun:Municipality ;
     rdfs:label "Schrattenberg" ;
@@ -32140,8 +32036,7 @@ atmun:Schrattenberg a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 299 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 58 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 58 .
 
 atmun:Schwarzach a atmun:Municipality ;
     rdfs:label "Schwarzach" ;
@@ -32180,12 +32075,10 @@ atmun:Schwendt a atmun:Municipality ;
     atmun:validBallots 352 ;
     atmun:votesFPOe 58 ;
     atmun:votesGruene 28 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 223 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 24 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 24 .
 
 atmun:Seefeld_Kadolz a atmun:Municipality ;
     rdfs:label "Seefeld-Kadolz" ;
@@ -32228,8 +32121,7 @@ atmun:Semmering a atmun:Municipality ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 108 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 44 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 44 .
 
 atmun:Sigharting a atmun:Municipality ;
     rdfs:label "Sigharting" ;
@@ -32250,8 +32142,7 @@ atmun:Sigharting a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 240 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 47 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 47 .
 
 atmun:Sistrans a atmun:Municipality ;
     rdfs:label "Sistrans" ;
@@ -32312,7 +32203,6 @@ atmun:St._Corona_am_Wechsel a atmun:Municipality ;
     atmun:validBallots 204 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 3 ;
     atmun:votesOeVP 127 ;
     atmun:votesPilz 2 ;
@@ -32448,8 +32338,7 @@ atmun:Stanz_bei_Landeck a atmun:Municipality ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 145 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 67 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 67 .
 
 atmun:Steegen a atmun:Municipality ;
     rdfs:label "Steegen" ;
@@ -32530,15 +32419,13 @@ atmun:Tadten a atmun:Municipality ;
     atmun:municipalityId 10720 ;
     atmun:spatialId "G10720" ;
     atmun:validBallots 745 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 84 ;
     atmun:votesGruene 34 ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 351 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 244 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 244 .
 
 atmun:Traisen a atmun:Municipality ;
     rdfs:label "Traisen" ;
@@ -32643,7 +32530,6 @@ atmun:Unterstinkenbrunn a atmun:Municipality ;
     atmun:validBallots 329 ;
     atmun:votesFPOe 54 ;
     atmun:votesGruene 14 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 213 ;
     atmun:votesPilz 2 ;
@@ -32669,8 +32555,7 @@ atmun:Vichtenstein a atmun:Municipality ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 183 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 22 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 22 .
 
 atmun:Vils a atmun:Municipality ;
     rdfs:label "Vils" ;
@@ -32691,8 +32576,7 @@ atmun:Vils a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 362 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 68 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 68 .
 
 atmun:Vordernberg a atmun:Municipality ;
     rdfs:label "Vordernberg" ;
@@ -32735,8 +32619,7 @@ atmun:Waldkirchen_an_der_Thaya a atmun:Municipality ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 231 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 31 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 31 .
 
 atmun:Wallern_im_Burgenland a atmun:Municipality ;
     rdfs:label "Wallern im Burgenland" ;
@@ -32803,8 +32686,7 @@ atmun:Weiden_am_See a atmun:Municipality ;
     atmun:votesNeos 116 ;
     atmun:votesOeVP 521 ;
     atmun:votesPilz 25 ;
-    atmun:votesSPOe 277 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 277 .
 
 atmun:Weistrach a atmun:Municipality ;
     rdfs:label "Weistrach" ;
@@ -32843,7 +32725,6 @@ atmun:Weißbach_bei_Lofer a atmun:Municipality ;
     atmun:validBallots 216 ;
     atmun:votesFPOe 25 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 137 ;
     atmun:votesPilz 2 ;
@@ -32921,8 +32802,7 @@ atmun:Wildermieming a atmun:Municipality ;
     atmun:votesNeos 67 ;
     atmun:votesOeVP 208 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 39 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 39 .
 
 atmun:Wimpassing_im_Schwarzatale a atmun:Municipality ;
     rdfs:label "Wimpassing im Schwarzatale" ;
@@ -33078,8 +32958,7 @@ atmun:Aderklaa a atmun:Municipality ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 67 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 5 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 5 .
 
 atmun:Aggsbach a atmun:Municipality ;
     rdfs:label "Aggsbach" ;
@@ -33194,8 +33073,7 @@ atmun:Altendorf a atmun:Municipality ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 137 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Altenmarkt_bei_Sankt_Gallen a atmun:Municipality ;
     rdfs:label "Altenmarkt bei Sankt Gallen" ;
@@ -33299,16 +33177,13 @@ atmun:Andlersdorf a atmun:Municipality ;
     atmun:electionParticipationRate 0.7048 ;
     atmun:eligibleVoters 105 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 30802 ;
     atmun:spatialId "G30802" ;
     atmun:validBallots 74 ;
     atmun:votesFPOe 6 ;
     atmun:votesGruene 8 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 42 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 9 ;
     atmun:votesWandl 1 .
 
@@ -33332,8 +33207,7 @@ atmun:Antiesenhofen a atmun:Municipality ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 197 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 79 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 79 .
 
 atmun:Arbing a atmun:Municipality ;
     rdfs:label "Arbing" ;
@@ -33355,8 +33229,7 @@ atmun:Arbing a atmun:Municipality ;
     atmun:votesNeos 67 ;
     atmun:votesOeVP 324 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 176 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 176 .
 
 atmun:Ardning a atmun:Municipality ;
     rdfs:label "Ardning" ;
@@ -33447,8 +33320,7 @@ atmun:Auerbach a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 148 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 20 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 20 .
 
 atmun:Aurach_bei_Kitzbühel a atmun:Municipality ;
     rdfs:label "Aurach bei Kitzbühel" ;
@@ -33470,8 +33342,7 @@ atmun:Aurach_bei_Kitzbühel a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 328 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 38 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 38 .
 
 atmun:Bad_Hofgastein a atmun:Municipality ;
     rdfs:label "Bad Hofgastein" ;
@@ -33517,8 +33388,7 @@ atmun:Bad_Tatzmannsdorf a atmun:Municipality ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 324 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 184 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 184 .
 
 atmun:Baumkirchen a atmun:Municipality ;
     rdfs:label "Baumkirchen" ;
@@ -33586,8 +33456,7 @@ atmun:Berg_im_Drautal a atmun:Municipality ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 339 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 139 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 139 .
 
 atmun:Bergheim a atmun:Municipality ;
     rdfs:label "Bergheim" ;
@@ -33678,8 +33547,7 @@ atmun:Bizau a atmun:Municipality ;
     atmun:votesNeos 55 ;
     atmun:votesOeVP 267 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Bleiburg a atmun:Municipality ;
     rdfs:label "Bleiburg" ;
@@ -33718,15 +33586,13 @@ atmun:Bocksdorf a atmun:Municipality ;
     atmun:municipalityId 10401 ;
     atmun:spatialId "G10401" ;
     atmun:validBallots 484 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 104 ;
     atmun:votesGruene 19 ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 157 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 177 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 177 .
 
 atmun:Brand a atmun:Municipality ;
     rdfs:label "Brand" ;
@@ -33839,7 +33705,6 @@ atmun:Buchbach a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 96 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 63 ;
     atmun:votesWandl 3 .
 
@@ -33859,7 +33724,6 @@ atmun:Bürserberg a atmun:Municipality ;
     atmun:validBallots 222 ;
     atmun:votesFPOe 39 ;
     atmun:votesGruene 19 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 116 ;
     atmun:votesPilz 5 ;
@@ -33886,8 +33750,7 @@ atmun:Dellach a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 329 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 141 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 141 .
 
 atmun:Deutsch_Goritz a atmun:Municipality ;
     rdfs:label "Deutsch Goritz" ;
@@ -33909,8 +33772,7 @@ atmun:Deutsch_Goritz a atmun:Municipality ;
     atmun:votesNeos 41 ;
     atmun:votesOeVP 555 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 110 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 110 .
 
 atmun:Deutschkreutz a atmun:Municipality ;
     rdfs:label "Deutschkreutz" ;
@@ -34071,8 +33933,7 @@ atmun:Düns a atmun:Municipality ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 78 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 15 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 15 .
 
 atmun:Ebersdorf a atmun:Municipality ;
     rdfs:label "Ebersdorf" ;
@@ -34094,8 +33955,7 @@ atmun:Ebersdorf a atmun:Municipality ;
     atmun:votesNeos 25 ;
     atmun:votesOeVP 382 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 64 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 64 .
 
 atmun:Echsenbach a atmun:Municipality ;
     rdfs:label "Echsenbach" ;
@@ -34228,7 +34088,6 @@ atmun:Eichenberg a atmun:Municipality ;
     atmun:validBallots 169 ;
     atmun:votesFPOe 7 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 118 ;
     atmun:votesPilz 6 ;
@@ -34274,7 +34133,6 @@ atmun:Eisgarn a atmun:Municipality ;
     atmun:validBallots 368 ;
     atmun:votesFPOe 54 ;
     atmun:votesGruene 14 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 211 ;
     atmun:votesPilz 2 ;
@@ -34297,7 +34155,6 @@ atmun:Elbigenalp a atmun:Municipality ;
     atmun:validBallots 360 ;
     atmun:votesFPOe 50 ;
     atmun:votesGruene 45 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 205 ;
     atmun:votesPilz 8 ;
@@ -34347,8 +34204,7 @@ atmun:Enzersfeld_im_Weinviertel a atmun:Municipality ;
     atmun:votesNeos 96 ;
     atmun:votesOeVP 471 ;
     atmun:votesPilz 20 ;
-    atmun:votesSPOe 178 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 178 .
 
 atmun:Erlauf a atmun:Municipality ;
     rdfs:label "Erlauf" ;
@@ -34458,12 +34314,9 @@ atmun:Faggen a atmun:Municipality ;
     atmun:validBallots 159 ;
     atmun:votesFPOe 19 ;
     atmun:votesGruene 10 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 106 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 11 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 11 .
 
 atmun:Feistritz_im_Rosental a atmun:Municipality ;
     rdfs:label "Feistritz im Rosental" ;
@@ -34553,9 +34406,7 @@ atmun:Fendels a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 103 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 5 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 5 .
 
 atmun:Finkenstein_am_Faaker_See a atmun:Municipality ;
     rdfs:label "Finkenstein am Faaker See" ;
@@ -34623,8 +34474,7 @@ atmun:Fontanella a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 192 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 1 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 1 .
 
 atmun:Forchtenstein a atmun:Municipality ;
     rdfs:label "Forchtenstein" ;
@@ -34640,7 +34490,6 @@ atmun:Forchtenstein a atmun:Municipality ;
     atmun:municipalityId 10602 ;
     atmun:spatialId "G10602" ;
     atmun:validBallots 1573 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 285 ;
     atmun:votesGruene 93 ;
     atmun:votesKPOe 2 ;
@@ -34670,8 +34519,7 @@ atmun:Forstau a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 201 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 42 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 42 .
 
 atmun:Frastanz a atmun:Municipality ;
     rdfs:label "Frastanz" ;
@@ -34804,7 +34652,6 @@ atmun:Gießhübl a atmun:Municipality ;
     atmun:validBallots 1177 ;
     atmun:votesFPOe 104 ;
     atmun:votesGruene 191 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 215 ;
     atmun:votesOeVP 478 ;
     atmun:votesPilz 31 ;
@@ -34827,7 +34674,6 @@ atmun:Gitschtal a atmun:Municipality ;
     atmun:validBallots 650 ;
     atmun:votesFPOe 170 ;
     atmun:votesGruene 42 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 234 ;
     atmun:votesPilz 8 ;
@@ -34896,7 +34742,6 @@ atmun:Gnadenwald a atmun:Municipality ;
     atmun:validBallots 398 ;
     atmun:votesFPOe 49 ;
     atmun:votesGruene 51 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 222 ;
     atmun:votesPilz 6 ;
@@ -34982,18 +34827,11 @@ atmun:Gramais a atmun:Municipality ;
     atmun:electionParticipationRate 0.75 ;
     atmun:eligibleVoters 32 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70812 ;
     atmun:spatialId "G70812" ;
     atmun:validBallots 24 ;
-    atmun:votesFPOe 0 ;
     atmun:votesGruene 1 ;
-    atmun:votesKPOe 0 ;
-    atmun:votesNeos 0 ;
-    atmun:votesOeVP 23 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 0 ;
-    atmun:votesWandl 0 .
+    atmun:votesOeVP 23 .
 
 atmun:Greinbach a atmun:Municipality ;
     rdfs:label "Greinbach" ;
@@ -35057,7 +34895,6 @@ atmun:Gries_im_Sellrain a atmun:Municipality ;
     atmun:validBallots 324 ;
     atmun:votesFPOe 32 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 179 ;
     atmun:votesPilz 3 ;
@@ -35124,15 +34961,11 @@ atmun:Großmürbisch a atmun:Municipality ;
     atmun:municipalityId 10420 ;
     atmun:spatialId "G10420" ;
     atmun:validBallots 148 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 10 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 81 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 46 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 46 .
 
 atmun:Grän a atmun:Municipality ;
     rdfs:label "Grän" ;
@@ -35150,12 +34983,10 @@ atmun:Grän a atmun:Municipality ;
     atmun:validBallots 233 ;
     atmun:votesFPOe 20 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 170 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 6 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 6 .
 
 atmun:Gumpoldskirchen a atmun:Municipality ;
     rdfs:label "Gumpoldskirchen" ;
@@ -35223,8 +35054,7 @@ atmun:Gutenberg_Stenzengreith a atmun:Municipality ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 351 ;
     atmun:votesPilz 15 ;
-    atmun:votesSPOe 202 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 202 .
 
 atmun:Göfis a atmun:Municipality ;
     rdfs:label "Göfis" ;
@@ -35288,12 +35118,10 @@ atmun:Göriach a atmun:Municipality ;
     atmun:validBallots 187 ;
     atmun:votesFPOe 33 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 114 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 24 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 24 .
 
 atmun:Günselsdorf a atmun:Municipality ;
     rdfs:label "Günselsdorf" ;
@@ -35407,8 +35235,7 @@ atmun:Haigermoos a atmun:Municipality ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 174 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 36 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 36 .
 
 atmun:Hallstatt a atmun:Municipality ;
     rdfs:label "Hallstatt" ;
@@ -35453,8 +35280,7 @@ atmun:Hardegg a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 526 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 110 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 110 .
 
 atmun:Hart_bei_Graz a atmun:Municipality ;
     rdfs:label "Hart bei Graz" ;
@@ -35516,7 +35342,6 @@ atmun:Heiligenbrunn a atmun:Municipality ;
     atmun:municipalityId 10407 ;
     atmun:spatialId "G10407" ;
     atmun:validBallots 448 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 66 ;
     atmun:votesGruene 14 ;
     atmun:votesKPOe 2 ;
@@ -35546,8 +35371,7 @@ atmun:Heinfels a atmun:Municipality ;
     atmun:votesNeos 51 ;
     atmun:votesOeVP 328 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 18 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 18 .
 
 atmun:Heldenberg a atmun:Municipality ;
     rdfs:label "Heldenberg" ;
@@ -35592,8 +35416,7 @@ atmun:Herrnbaumgarten a atmun:Municipality ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 336 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 53 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 53 .
 
 atmun:Hirm a atmun:Municipality ;
     rdfs:label "Hirm" ;
@@ -35662,8 +35485,7 @@ atmun:Hochfilzen a atmun:Municipality ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 293 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 126 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 126 .
 
 atmun:Hofstätten_an_der_Raab a atmun:Municipality ;
     rdfs:label "Hofstätten an der Raab" ;
@@ -35754,8 +35576,7 @@ atmun:Höfen a atmun:Municipality ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 303 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 63 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 63 .
 
 atmun:Innerbraz a atmun:Municipality ;
     rdfs:label "Innerbraz" ;
@@ -35819,12 +35640,10 @@ atmun:Innervillgraten a atmun:Municipality ;
     atmun:validBallots 465 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 382 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Inzersdorf_Getzersdorf a atmun:Municipality ;
     rdfs:label "Inzersdorf-Getzersdorf" ;
@@ -35869,8 +35688,7 @@ atmun:Itter a atmun:Municipality ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 353 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 66 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 66 .
 
 atmun:Jeging a atmun:Municipality ;
     rdfs:label "Jeging" ;
@@ -35979,7 +35797,6 @@ atmun:Kaisersdorf a atmun:Municipality ;
     atmun:municipalityId 10806 ;
     atmun:spatialId "G10806" ;
     atmun:validBallots 356 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 47 ;
     atmun:votesGruene 22 ;
     atmun:votesKPOe 1 ;
@@ -36005,7 +35822,6 @@ atmun:Kaltenbach a atmun:Municipality ;
     atmun:validBallots 536 ;
     atmun:votesFPOe 89 ;
     atmun:votesGruene 52 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 278 ;
     atmun:votesPilz 4 ;
@@ -36028,12 +35844,9 @@ atmun:Kaltenberg a atmun:Municipality ;
     atmun:validBallots 421 ;
     atmun:votesFPOe 65 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 304 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 20 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 20 .
 
 atmun:Kapelln a atmun:Municipality ;
     rdfs:label "Kapelln" ;
@@ -36143,7 +35956,6 @@ atmun:Kirchdorf_am_Inn a atmun:Municipality ;
     atmun:validBallots 339 ;
     atmun:votesFPOe 75 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 185 ;
     atmun:votesPilz 7 ;
@@ -36263,8 +36075,7 @@ atmun:Klöch a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 451 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 50 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 50 .
 
 atmun:Knittelfeld a atmun:Municipality ;
     rdfs:label "Knittelfeld" ;
@@ -36470,8 +36281,7 @@ atmun:Ladis a atmun:Municipality ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 138 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Langau a atmun:Municipality ;
     rdfs:label "Langau" ;
@@ -36489,12 +36299,10 @@ atmun:Langau a atmun:Municipality ;
     atmun:validBallots 409 ;
     atmun:votesFPOe 60 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 256 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 61 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 61 .
 
 atmun:Lassing a atmun:Municipality ;
     rdfs:label "Lassing" ;
@@ -36654,8 +36462,7 @@ atmun:Lichtenau_im_Mühlkreis a atmun:Municipality ;
     atmun:votesNeos 6 ;
     atmun:votesOeVP 135 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 29 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 29 .
 
 atmun:Lichtenberg a atmun:Municipality ;
     rdfs:label "Lichtenberg" ;
@@ -36858,7 +36665,6 @@ atmun:Mannersdorf_an_der_Rabnitz a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 209 ;
     atmun:votesGruene 49 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 417 ;
     atmun:votesPilz 12 ;
@@ -36948,7 +36754,6 @@ atmun:Mariasdorf a atmun:Municipality ;
     atmun:municipalityId 10911 ;
     atmun:spatialId "G10911" ;
     atmun:validBallots 698 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 182 ;
     atmun:votesGruene 49 ;
     atmun:votesKPOe 2 ;
@@ -36979,8 +36784,7 @@ atmun:Markt_Neuhodis a atmun:Municipality ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 177 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 154 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 154 .
 
 atmun:Marz a atmun:Municipality ;
     rdfs:label "Marz" ;
@@ -37160,12 +36964,10 @@ atmun:Mitterbach_am_Erlaufsee a atmun:Municipality ;
     atmun:validBallots 251 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 154 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 40 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 40 .
 
 atmun:Mitterndorf_an_der_Fischa a atmun:Municipality ;
     rdfs:label "Mitterndorf an der Fischa" ;
@@ -37252,12 +37054,10 @@ atmun:Möggers a atmun:Municipality ;
     atmun:validBallots 279 ;
     atmun:votesFPOe 33 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 183 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Mönichkirchen a atmun:Municipality ;
     rdfs:label "Mönichkirchen" ;
@@ -37321,7 +37121,6 @@ atmun:Mühlen a atmun:Municipality ;
     atmun:validBallots 538 ;
     atmun:votesFPOe 104 ;
     atmun:votesGruene 35 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 220 ;
     atmun:votesPilz 3 ;
@@ -37436,7 +37235,6 @@ atmun:Neufeld_an_der_Leitha a atmun:Municipality ;
     atmun:municipalityId 10309 ;
     atmun:spatialId "G10309" ;
     atmun:validBallots 1840 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 343 ;
     atmun:votesGruene 191 ;
     atmun:votesKPOe 15 ;
@@ -37507,7 +37305,6 @@ atmun:Neustift_an_der_Lafnitz a atmun:Municipality ;
     atmun:municipalityId 10929 ;
     atmun:spatialId "G10929" ;
     atmun:validBallots 485 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 103 ;
     atmun:votesGruene 19 ;
     atmun:votesKPOe 3 ;
@@ -37538,8 +37335,7 @@ atmun:Neustift_bei_Güssing a atmun:Municipality ;
     atmun:votesNeos 6 ;
     atmun:votesOeVP 71 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 115 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 115 .
 
 atmun:Neustift_im_Mühlkreis a atmun:Municipality ;
     rdfs:label "Neustift im Mühlkreis" ;
@@ -37578,7 +37374,6 @@ atmun:Nickelsdorf a atmun:Municipality ;
     atmun:municipalityId 10714 ;
     atmun:spatialId "G10714" ;
     atmun:validBallots 872 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 191 ;
     atmun:votesGruene 68 ;
     atmun:votesKPOe 3 ;
@@ -37627,7 +37422,6 @@ atmun:Niederndorferberg a atmun:Municipality ;
     atmun:validBallots 301 ;
     atmun:votesFPOe 45 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 214 ;
     atmun:votesPilz 3 ;
@@ -37654,8 +37448,7 @@ atmun:Niedernsill a atmun:Municipality ;
     atmun:votesNeos 88 ;
     atmun:votesOeVP 697 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 244 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 244 .
 
 atmun:Nikitsch a atmun:Municipality ;
     rdfs:label "Nikitsch" ;
@@ -37678,8 +37471,7 @@ atmun:Nikitsch a atmun:Municipality ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 409 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 224 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 224 .
 
 atmun:Oberhofen_am_Irrsee a atmun:Municipality ;
     rdfs:label "Oberhofen am Irrsee" ;
@@ -37764,15 +37556,13 @@ atmun:Oberpullendorf a atmun:Municipality ;
     atmun:municipalityId 10816 ;
     atmun:spatialId "G10816" ;
     atmun:validBallots 1434 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 224 ;
     atmun:votesGruene 123 ;
     atmun:votesKPOe 8 ;
     atmun:votesNeos 76 ;
     atmun:votesOeVP 605 ;
     atmun:votesPilz 16 ;
-    atmun:votesSPOe 382 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 382 .
 
 atmun:Oberschlierbach a atmun:Municipality ;
     rdfs:label "Oberschlierbach" ;
@@ -37790,7 +37580,6 @@ atmun:Oberschlierbach a atmun:Municipality ;
     atmun:validBallots 263 ;
     atmun:votesFPOe 29 ;
     atmun:votesGruene 44 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 135 ;
     atmun:votesPilz 2 ;
@@ -37899,18 +37688,15 @@ atmun:Parbasdorf a atmun:Municipality ;
     atmun:electionParticipationRate 0.8409 ;
     atmun:eligibleVoters 132 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 30846 ;
     atmun:spatialId "G30846" ;
     atmun:validBallots 111 ;
     atmun:votesFPOe 17 ;
     atmun:votesGruene 5 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 72 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 6 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 6 .
 
 atmun:Patsch a atmun:Municipality ;
     rdfs:label "Patsch" ;
@@ -37932,8 +37718,7 @@ atmun:Patsch a atmun:Municipality ;
     atmun:votesNeos 53 ;
     atmun:votesOeVP 230 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 59 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 59 .
 
 atmun:Peggau a atmun:Municipality ;
     rdfs:label "Peggau" ;
@@ -37997,7 +37782,6 @@ atmun:Pettneu_am_Arlberg a atmun:Municipality ;
     atmun:validBallots 668 ;
     atmun:votesFPOe 67 ;
     atmun:votesGruene 92 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 59 ;
     atmun:votesOeVP 343 ;
     atmun:votesPilz 10 ;
@@ -38037,18 +37821,13 @@ atmun:Pfafflar a atmun:Municipality ;
     atmun:electionParticipationRate 0.5176 ;
     atmun:eligibleVoters 85 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70825 ;
     atmun:spatialId "G70825" ;
     atmun:validBallots 44 ;
     atmun:votesFPOe 5 ;
     atmun:votesGruene 2 ;
-    atmun:votesKPOe 0 ;
-    atmun:votesNeos 0 ;
     atmun:votesOeVP 35 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 2 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 2 .
 
 atmun:Pflach a atmun:Municipality ;
     rdfs:label "Pflach" ;
@@ -38203,7 +37982,6 @@ atmun:Potzneusiedl a atmun:Municipality ;
     atmun:municipalityId 10726 ;
     atmun:spatialId "G10726" ;
     atmun:validBallots 320 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 72 ;
     atmun:votesGruene 18 ;
     atmun:votesKPOe 3 ;
@@ -38252,7 +38030,6 @@ atmun:Preitenegg a atmun:Municipality ;
     atmun:validBallots 532 ;
     atmun:votesFPOe 140 ;
     atmun:votesGruene 14 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 251 ;
     atmun:votesPilz 4 ;
@@ -38275,12 +38052,9 @@ atmun:Pusterwald a atmun:Municipality ;
     atmun:validBallots 255 ;
     atmun:votesFPOe 45 ;
     atmun:votesGruene 5 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 151 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 47 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 47 .
 
 atmun:Pörtschach_am_Wörther_See a atmun:Municipality ;
     rdfs:label "Pörtschach am Wörther See" ;
@@ -38319,15 +38093,12 @@ atmun:Pöttelsdorf a atmun:Municipality ;
     atmun:municipalityId 10608 ;
     atmun:spatialId "G10608" ;
     atmun:validBallots 391 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 56 ;
     atmun:votesGruene 43 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 162 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 98 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 98 .
 
 atmun:Rabenstein_an_der_Pielach a atmun:Municipality ;
     rdfs:label "Rabenstein an der Pielach" ;
@@ -38372,8 +38143,7 @@ atmun:Ramingstein a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 236 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 136 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 136 .
 
 atmun:Ranggen a atmun:Municipality ;
     rdfs:label "Ranggen" ;
@@ -38464,8 +38234,7 @@ atmun:Reichersberg a atmun:Municipality ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 317 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 81 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 81 .
 
 atmun:Reith_bei_Seefeld a atmun:Municipality ;
     rdfs:label "Reith bei Seefeld" ;
@@ -38509,9 +38278,7 @@ atmun:Rettenschöss a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 174 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 4 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 4 .
 
 atmun:Retzbach a atmun:Municipality ;
     rdfs:label "Retzbach" ;
@@ -38529,7 +38296,6 @@ atmun:Retzbach a atmun:Municipality ;
     atmun:validBallots 573 ;
     atmun:votesFPOe 110 ;
     atmun:votesGruene 49 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 299 ;
     atmun:votesPilz 7 ;
@@ -38575,7 +38341,6 @@ atmun:Ringelsdorf_Niederabsdorf a atmun:Municipality ;
     atmun:validBallots 697 ;
     atmun:votesFPOe 98 ;
     atmun:votesGruene 18 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 274 ;
     atmun:votesPilz 10 ;
@@ -38602,8 +38367,7 @@ atmun:Rinn a atmun:Municipality ;
     atmun:votesNeos 102 ;
     atmun:votesOeVP 431 ;
     atmun:votesPilz 17 ;
-    atmun:votesSPOe 84 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 84 .
 
 atmun:Rohrberg a atmun:Municipality ;
     rdfs:label "Rohrberg" ;
@@ -38615,7 +38379,6 @@ atmun:Rohrberg a atmun:Municipality ;
     atmun:electionParticipationRate 0.6134 ;
     atmun:eligibleVoters 432 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70924 ;
     atmun:spatialId "G70924" ;
     atmun:validBallots 265 ;
@@ -38694,8 +38457,7 @@ atmun:Röns a atmun:Municipality ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 74 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Sankt_Georgen_an_der_Stiefing a atmun:Municipality ;
     rdfs:label "Sankt Georgen an der Stiefing" ;
@@ -38832,8 +38594,7 @@ atmun:Sankt_Margarethen_im_Lungau a atmun:Municipality ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 184 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 67 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 67 .
 
 atmun:Sankt_Martin_am_Tennengebirge a atmun:Municipality ;
     rdfs:label "Sankt Martin am Tennengebirge" ;
@@ -38855,8 +38616,7 @@ atmun:Sankt_Martin_am_Tennengebirge a atmun:Municipality ;
     atmun:votesNeos 56 ;
     atmun:votesOeVP 507 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 144 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 144 .
 
 atmun:Sankt_Martin_bei_Lofer a atmun:Municipality ;
     rdfs:label "Sankt Martin bei Lofer" ;
@@ -39017,8 +38777,7 @@ atmun:Schleedorf a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 311 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 44 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 44 .
 
 atmun:Schnepfau a atmun:Municipality ;
     rdfs:label "Schnepfau" ;
@@ -39036,12 +38795,10 @@ atmun:Schnepfau a atmun:Municipality ;
     atmun:validBallots 194 ;
     atmun:votesFPOe 17 ;
     atmun:votesGruene 28 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 112 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 5 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 5 .
 
 atmun:Schollach a atmun:Municipality ;
     rdfs:label "Schollach" ;
@@ -39063,8 +38820,7 @@ atmun:Schollach a atmun:Municipality ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 252 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 120 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 120 .
 
 atmun:Schrattenthal a atmun:Municipality ;
     rdfs:label "Schrattenthal" ;
@@ -39082,7 +38838,6 @@ atmun:Schrattenthal a atmun:Municipality ;
     atmun:validBallots 522 ;
     atmun:votesFPOe 43 ;
     atmun:votesGruene 46 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 303 ;
     atmun:votesPilz 2 ;
@@ -39175,7 +38930,6 @@ atmun:Schützen_am_Gebirge a atmun:Municipality ;
     atmun:votesCPOe 2 ;
     atmun:votesFPOe 112 ;
     atmun:votesGruene 54 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 43 ;
     atmun:votesOeVP 392 ;
     atmun:votesPilz 7 ;
@@ -39225,8 +38979,7 @@ atmun:See a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 437 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Seebenstein a atmun:Municipality ;
     rdfs:label "Seebenstein" ;
@@ -39377,18 +39130,13 @@ atmun:Spiss a atmun:Municipality ;
     atmun:electionParticipationRate 0.5556 ;
     atmun:eligibleVoters 90 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70625 ;
     atmun:spatialId "G70625" ;
     atmun:validBallots 50 ;
     atmun:votesFPOe 9 ;
-    atmun:votesGruene 0 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 36 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 4 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 4 .
 
 atmun:St._Anton_im_Montafon a atmun:Municipality ;
     rdfs:label "St. Anton im Montafon" ;
@@ -39456,8 +39204,7 @@ atmun:St._Gotthard_im_Mühlkreis a atmun:Municipality ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 292 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 165 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 165 .
 
 atmun:St._Jakob_in_Defereggen a atmun:Municipality ;
     rdfs:label "St. Jakob in Defereggen" ;
@@ -39475,12 +39222,10 @@ atmun:St._Jakob_in_Defereggen a atmun:Municipality ;
     atmun:validBallots 426 ;
     atmun:votesFPOe 55 ;
     atmun:votesGruene 28 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 300 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 10 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 10 .
 
 atmun:St._Kathrein_am_Hauenstein a atmun:Municipality ;
     rdfs:label "St. Kathrein am Hauenstein" ;
@@ -39636,7 +39381,6 @@ atmun:St._Veit_im_Innkreis a atmun:Municipality ;
     atmun:validBallots 219 ;
     atmun:votesFPOe 51 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 103 ;
     atmun:votesPilz 1 ;
@@ -39682,7 +39426,6 @@ atmun:Steeg a atmun:Municipality ;
     atmun:validBallots 350 ;
     atmun:votesFPOe 41 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 256 ;
     atmun:votesPilz 9 ;
@@ -39751,7 +39494,6 @@ atmun:Strassen a atmun:Municipality ;
     atmun:validBallots 408 ;
     atmun:votesFPOe 29 ;
     atmun:votesGruene 35 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 301 ;
     atmun:votesPilz 3 ;
@@ -39890,7 +39632,6 @@ atmun:Tannheim a atmun:Municipality ;
     atmun:validBallots 389 ;
     atmun:votesFPOe 52 ;
     atmun:votesGruene 23 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 252 ;
     atmun:votesPilz 5 ;
@@ -40032,8 +39773,7 @@ atmun:Tieschen a atmun:Municipality ;
     atmun:votesNeos 37 ;
     atmun:votesOeVP 291 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 130 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 130 .
 
 atmun:Traboch a atmun:Municipality ;
     rdfs:label "Traboch" ;
@@ -40188,7 +39928,6 @@ atmun:Unterrabnitz_Schwendgraben a atmun:Municipality ;
     atmun:municipalityId 10826 ;
     atmun:spatialId "G10826" ;
     atmun:validBallots 417 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 46 ;
     atmun:votesGruene 18 ;
     atmun:votesKPOe 2 ;
@@ -40208,18 +39947,14 @@ atmun:Untertilliach a atmun:Municipality ;
     atmun:electionParticipationRate 0.5191 ;
     atmun:eligibleVoters 183 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70733 ;
     atmun:spatialId "G70733" ;
     atmun:validBallots 95 ;
     atmun:votesFPOe 7 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 75 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 2 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 2 .
 
 atmun:Unzmarkt_Frauenburg a atmun:Municipality ;
     rdfs:label "Unzmarkt-Frauenburg" ;
@@ -40264,8 +39999,7 @@ atmun:Vals a atmun:Municipality ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 184 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 25 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 25 .
 
 atmun:Velm_Götzendorf a atmun:Municipality ;
     rdfs:label "Velm-Götzendorf" ;
@@ -40329,12 +40063,10 @@ atmun:Vorderhornbach a atmun:Municipality ;
     atmun:validBallots 150 ;
     atmun:votesFPOe 23 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 94 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 6 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 6 .
 
 atmun:Vorderweißenbach a atmun:Municipality ;
     rdfs:label "Vorderweißenbach" ;
@@ -40447,7 +40179,6 @@ atmun:Weilbach a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 182 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 31 ;
     atmun:votesWandl 1 .
 
@@ -40507,19 +40238,16 @@ atmun:Weingraben a atmun:Municipality ;
     atmun:electionParticipationRate 0.8159 ;
     atmun:eligibleVoters 277 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 10827 ;
     atmun:spatialId "G10827" ;
     atmun:validBallots 226 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 17 ;
     atmun:votesGruene 15 ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 83 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 100 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 100 .
 
 atmun:Weißenkirchen_in_der_Wachau a atmun:Municipality ;
     rdfs:label "Weißenkirchen in der Wachau" ;
@@ -40682,15 +40410,13 @@ atmun:Wiesfleck a atmun:Municipality ;
     atmun:municipalityId 10927 ;
     atmun:spatialId "G10927" ;
     atmun:validBallots 695 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 186 ;
     atmun:votesGruene 27 ;
     atmun:votesKPOe 4 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 293 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 162 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 162 .
 
 atmun:Wilfersdorf a atmun:Municipality ;
     rdfs:label "Wilfersdorf" ;
@@ -40729,7 +40455,6 @@ atmun:Wimpassing_an_der_Leitha a atmun:Municipality ;
     atmun:municipalityId 10318 ;
     atmun:spatialId "G10318" ;
     atmun:validBallots 839 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 172 ;
     atmun:votesGruene 67 ;
     atmun:votesKPOe 2 ;
@@ -40753,7 +40478,6 @@ atmun:Winden_am_See a atmun:Municipality ;
     atmun:municipalityId 10723 ;
     atmun:spatialId "G10723" ;
     atmun:validBallots 701 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 117 ;
     atmun:votesGruene 57 ;
     atmun:votesKPOe 2 ;
@@ -40806,8 +40530,7 @@ atmun:Wippenham a atmun:Municipality ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 106 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 66 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 66 .
 
 atmun:Wolfpassing a atmun:Municipality ;
     rdfs:label "Wolfpassing" ;
@@ -40892,10 +40615,8 @@ atmun:Wörterberg a atmun:Municipality ;
     atmun:municipalityId 10419 ;
     atmun:spatialId "G10419" ;
     atmun:validBallots 287 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 47 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 116 ;
     atmun:votesPilz 3 ;
@@ -40918,7 +40639,6 @@ atmun:Zeillern a atmun:Municipality ;
     atmun:validBallots 1059 ;
     atmun:votesFPOe 172 ;
     atmun:votesGruene 71 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 54 ;
     atmun:votesOeVP 629 ;
     atmun:votesPilz 16 ;
@@ -41033,7 +40753,6 @@ atmun:Übersaxen a atmun:Municipality ;
     atmun:validBallots 305 ;
     atmun:votesFPOe 60 ;
     atmun:votesGruene 31 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 160 ;
     atmun:votesPilz 1 ;
@@ -41105,7 +40824,6 @@ atmun:Aichkirchen a atmun:Municipality ;
     atmun:validBallots 308 ;
     atmun:votesFPOe 65 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 25 ;
     atmun:votesOeVP 164 ;
     atmun:votesPilz 6 ;
@@ -41201,7 +40919,6 @@ atmun:Allerheiligen_im_Mühlkreis a atmun:Municipality ;
     atmun:validBallots 739 ;
     atmun:votesFPOe 126 ;
     atmun:votesGruene 62 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 43 ;
     atmun:votesOeVP 328 ;
     atmun:votesPilz 8 ;
@@ -41421,8 +41138,7 @@ atmun:Angath a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 238 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 46 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 46 .
 
 atmun:Angern_an_der_March a atmun:Municipality ;
     rdfs:label "Angern an der March" ;
@@ -41511,15 +41227,13 @@ atmun:Antau a atmun:Municipality ;
     atmun:municipalityId 10616 ;
     atmun:spatialId "G10616" ;
     atmun:validBallots 475 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 78 ;
     atmun:votesGruene 30 ;
     atmun:votesKPOe 4 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 218 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 119 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 119 .
 
 atmun:Anthering a atmun:Municipality ;
     rdfs:label "Anthering" ;
@@ -41683,7 +41397,6 @@ atmun:Atzesberg a atmun:Municipality ;
     atmun:validBallots 287 ;
     atmun:votesFPOe 65 ;
     atmun:votesGruene 17 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 152 ;
     atmun:votesPilz 1 ;
@@ -41759,8 +41472,7 @@ atmun:Bad_Deutsch_Altenburg a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 327 ;
     atmun:votesPilz 19 ;
-    atmun:votesSPOe 158 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 158 .
 
 atmun:Bad_Fischau_Brunn a atmun:Municipality ;
     rdfs:label "Bad Fischau-Brunn" ;
@@ -41955,15 +41667,12 @@ atmun:Badersdorf a atmun:Municipality ;
     atmun:municipalityId 10931 ;
     atmun:spatialId "G10931" ;
     atmun:validBallots 189 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 4 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 3 ;
     atmun:votesOeVP 97 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 48 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 48 .
 
 atmun:Berndorf_bei_Salzburg a atmun:Municipality ;
     rdfs:label "Berndorf bei Salzburg" ;
@@ -42030,7 +41739,6 @@ atmun:Biberwier a atmun:Municipality ;
     atmun:validBallots 282 ;
     atmun:votesFPOe 48 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 139 ;
     atmun:votesPilz 6 ;
@@ -42120,18 +41828,14 @@ atmun:Brandberg a atmun:Municipality ;
     atmun:electionParticipationRate 0.5993 ;
     atmun:eligibleVoters 277 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70903 ;
     atmun:spatialId "G70903" ;
     atmun:validBallots 166 ;
     atmun:votesFPOe 37 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 110 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 8 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 8 .
 
 atmun:Brandenberg a atmun:Municipality ;
     rdfs:label "Brandenberg" ;
@@ -42154,8 +41858,7 @@ atmun:Brandenberg a atmun:Municipality ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 468 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 101 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 101 .
 
 atmun:Breitenau a atmun:Municipality ;
     rdfs:label "Breitenau" ;
@@ -42174,7 +41877,6 @@ atmun:Breitenau a atmun:Municipality ;
     atmun:validBallots 917 ;
     atmun:votesFPOe 189 ;
     atmun:votesGruene 47 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 61 ;
     atmun:votesOeVP 337 ;
     atmun:votesPilz 12 ;
@@ -42196,7 +41898,6 @@ atmun:Breitenbrunn_am_Neusiedler_See a atmun:Municipality ;
     atmun:municipalityId 10301 ;
     atmun:spatialId "G10301" ;
     atmun:validBallots 1110 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 149 ;
     atmun:votesGruene 132 ;
     atmun:votesKPOe 5 ;
@@ -42323,8 +42024,7 @@ atmun:Burgau a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 269 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 97 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 97 .
 
 atmun:Bürg_Vöstenhof a atmun:Municipality ;
     rdfs:label "Bürg-Vöstenhof" ;
@@ -42343,12 +42043,9 @@ atmun:Bürg_Vöstenhof a atmun:Municipality ;
     atmun:validBallots 105 ;
     atmun:votesFPOe 23 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 51 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 22 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 22 .
 
 atmun:Deutschfeistritz a atmun:Municipality ;
     rdfs:label "Deutschfeistritz" ;
@@ -42391,12 +42088,10 @@ atmun:Dienten_am_Hochkönig a atmun:Municipality ;
     atmun:validBallots 352 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 191 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 96 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 96 .
 
 atmun:Dietach a atmun:Municipality ;
     rdfs:label "Dietach" ;
@@ -42515,8 +42210,7 @@ atmun:Dorf_an_der_Pram a atmun:Municipality ;
     atmun:votesNeos 37 ;
     atmun:votesOeVP 325 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 63 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 63 .
 
 atmun:Dorfbeuern a atmun:Municipality ;
     rdfs:label "Dorfbeuern" ;
@@ -42563,8 +42257,7 @@ atmun:Dorfgastein a atmun:Municipality ;
     atmun:votesNeos 57 ;
     atmun:votesOeVP 525 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 162 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 162 .
 
 atmun:Dünserberg a atmun:Municipality ;
     rdfs:label "Dünserberg" ;
@@ -42583,11 +42276,8 @@ atmun:Dünserberg a atmun:Municipality ;
     atmun:validBallots 59 ;
     atmun:votesFPOe 11 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 39 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 0 ;
     atmun:votesWandl 1 .
 
 atmun:Eberau a atmun:Municipality ;
@@ -42605,7 +42295,6 @@ atmun:Eberau a atmun:Municipality ;
     atmun:municipalityId 10403 ;
     atmun:spatialId "G10403" ;
     atmun:validBallots 488 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 68 ;
     atmun:votesGruene 25 ;
     atmun:votesKPOe 2 ;
@@ -42678,15 +42367,12 @@ atmun:Edelstal a atmun:Municipality ;
     atmun:municipalityId 10727 ;
     atmun:spatialId "G10727" ;
     atmun:validBallots 353 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 51 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 209 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 67 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 67 .
 
 atmun:Eibiswald a atmun:Municipality ;
     rdfs:label "Eibiswald" ;
@@ -42753,12 +42439,10 @@ atmun:Eitzing a atmun:Municipality ;
     atmun:validBallots 393 ;
     atmun:votesFPOe 97 ;
     atmun:votesGruene 29 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 191 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 53 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 53 .
 
 atmun:Elmen a atmun:Municipality ;
     rdfs:label "Elmen" ;
@@ -42777,12 +42461,10 @@ atmun:Elmen a atmun:Municipality ;
     atmun:validBallots 172 ;
     atmun:votesFPOe 14 ;
     atmun:votesGruene 19 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 121 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 4 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 4 .
 
 atmun:Elsbethen a atmun:Municipality ;
     rdfs:label "Elsbethen" ;
@@ -42891,7 +42573,6 @@ atmun:Falkenstein a atmun:Municipality ;
     atmun:electionParticipationRate 0.7624 ;
     atmun:eligibleVoters 404 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 31608 ;
     atmun:spatialId "G31608" ;
     atmun:validBallots 308 ;
@@ -42901,8 +42582,7 @@ atmun:Falkenstein a atmun:Municipality ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 204 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Feistritz_am_Wechsel a atmun:Municipality ;
     rdfs:label "Feistritz am Wechsel" ;
@@ -43022,8 +42702,7 @@ atmun:Filzmoos a atmun:Municipality ;
     atmun:votesNeos 44 ;
     atmun:votesOeVP 481 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 50 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 50 .
 
 atmun:Finkenberg a atmun:Municipality ;
     rdfs:label "Finkenberg" ;
@@ -43190,8 +42869,7 @@ atmun:Frauental_an_der_Laßnitz a atmun:Municipality ;
     atmun:votesNeos 71 ;
     atmun:votesOeVP 436 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 422 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 422 .
 
 atmun:Fulpmes a atmun:Municipality ;
     rdfs:label "Fulpmes" ;
@@ -43234,12 +42912,10 @@ atmun:Fusch_an_der_Großglocknerstraße a atmun:Municipality ;
     atmun:validBallots 366 ;
     atmun:votesFPOe 36 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 243 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 48 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 48 .
 
 atmun:Fuschl_am_See a atmun:Municipality ;
     rdfs:label "Fuschl am See" ;
@@ -43478,8 +43154,7 @@ atmun:Geiersberg a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 117 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 28 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 28 .
 
 atmun:Gerlosberg a atmun:Municipality ;
     rdfs:label "Gerlosberg" ;
@@ -43498,7 +43173,6 @@ atmun:Gerlosberg a atmun:Municipality ;
     atmun:validBallots 230 ;
     atmun:votesFPOe 41 ;
     atmun:votesGruene 10 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 155 ;
     atmun:votesPilz 2 ;
@@ -43526,8 +43200,7 @@ atmun:Glinzendorf a atmun:Municipality ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 60 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 31 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 31 .
 
 atmun:Glödnitz a atmun:Municipality ;
     rdfs:label "Glödnitz" ;
@@ -43622,8 +43295,7 @@ atmun:Gnesau a atmun:Municipality ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 190 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 121 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 121 .
 
 atmun:Grafenbach_St._Valentin a atmun:Municipality ;
     rdfs:label "Grafenbach-St. Valentin" ;
@@ -43665,7 +43337,6 @@ atmun:Grafenschachen a atmun:Municipality ;
     atmun:municipalityId 10904 ;
     atmun:spatialId "G10904" ;
     atmun:validBallots 786 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 188 ;
     atmun:votesGruene 25 ;
     atmun:votesKPOe 2 ;
@@ -43692,7 +43363,6 @@ atmun:Grafenschlag a atmun:Municipality ;
     atmun:validBallots 512 ;
     atmun:votesFPOe 88 ;
     atmun:votesGruene 22 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 320 ;
     atmun:votesPilz 4 ;
@@ -43812,7 +43482,6 @@ atmun:Großgöttfritz a atmun:Municipality ;
     atmun:validBallots 856 ;
     atmun:votesFPOe 211 ;
     atmun:votesGruene 39 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 483 ;
     atmun:votesPilz 6 ;
@@ -43854,18 +43523,15 @@ atmun:Großhofen a atmun:Municipality ;
     atmun:electionParticipationRate 0.8615 ;
     atmun:eligibleVoters 65 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 30822 ;
     atmun:spatialId "G30822" ;
     atmun:validBallots 56 ;
     atmun:votesFPOe 5 ;
     atmun:votesGruene 1 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 41 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 3 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 3 .
 
 atmun:Großhöflein a atmun:Municipality ;
     rdfs:label "Großhöflein" ;
@@ -43882,7 +43548,6 @@ atmun:Großhöflein a atmun:Municipality ;
     atmun:municipalityId 10303 ;
     atmun:spatialId "G10303" ;
     atmun:validBallots 1139 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 183 ;
     atmun:votesGruene 115 ;
     atmun:votesKPOe 4 ;
@@ -44099,15 +43764,13 @@ atmun:Güttenbach a atmun:Municipality ;
     atmun:municipalityId 10406 ;
     atmun:spatialId "G10406" ;
     atmun:validBallots 500 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 61 ;
     atmun:votesGruene 31 ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 251 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 132 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 132 .
 
 atmun:Hainburg_a.d._Donau a atmun:Municipality ;
     rdfs:label "Hainburg a.d. Donau" ;
@@ -44154,8 +43817,7 @@ atmun:Hainzenberg a atmun:Municipality ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 184 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 42 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 42 .
 
 atmun:Halbturn a atmun:Municipality ;
     rdfs:label "Halbturn" ;
@@ -44396,8 +44058,7 @@ atmun:Haunoldstein a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 283 ;
     atmun:votesPilz 20 ;
-    atmun:votesSPOe 139 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 139 .
 
 atmun:Haus a atmun:Municipality ;
     rdfs:label "Haus" ;
@@ -44468,8 +44129,7 @@ atmun:Heiligenberg a atmun:Municipality ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 275 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 21 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 21 .
 
 atmun:Heiligenkreuz a atmun:Municipality ;
     rdfs:label "Heiligenkreuz" ;
@@ -44654,15 +44314,11 @@ atmun:Heugraben a atmun:Municipality ;
     atmun:municipalityId 10424 ;
     atmun:spatialId "G10424" ;
     atmun:validBallots 151 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 32 ;
     atmun:votesGruene 3 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 63 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 49 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 49 .
 
 atmun:Himmelberg a atmun:Municipality ;
     rdfs:label "Himmelberg" ;
@@ -44705,7 +44361,6 @@ atmun:Hintersee a atmun:Municipality ;
     atmun:validBallots 248 ;
     atmun:votesFPOe 33 ;
     atmun:votesGruene 8 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 156 ;
     atmun:votesPilz 2 ;
@@ -44897,7 +44552,6 @@ atmun:Holzhausen a atmun:Municipality ;
     atmun:validBallots 488 ;
     atmun:votesFPOe 101 ;
     atmun:votesGruene 57 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 179 ;
     atmun:votesPilz 8 ;
@@ -44994,7 +44648,6 @@ atmun:Höflein_an_der_Hohen_Wand a atmun:Municipality ;
     atmun:validBallots 525 ;
     atmun:votesFPOe 89 ;
     atmun:votesGruene 55 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 177 ;
     atmun:votesPilz 10 ;
@@ -45022,8 +44675,7 @@ atmun:Höhnhart a atmun:Municipality ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 302 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 109 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 109 .
 
 atmun:Hörbranz a atmun:Municipality ;
     rdfs:label "Hörbranz" ;
@@ -45071,8 +44723,7 @@ atmun:Illmitz a atmun:Municipality ;
     atmun:votesNeos 51 ;
     atmun:votesOeVP 617 ;
     atmun:votesPilz 17 ;
-    atmun:votesSPOe 598 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 598 .
 
 atmun:Inzenhof a atmun:Municipality ;
     rdfs:label "Inzenhof" ;
@@ -45089,15 +44740,11 @@ atmun:Inzenhof a atmun:Municipality ;
     atmun:municipalityId 10421 ;
     atmun:spatialId "G10421" ;
     atmun:validBallots 195 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 31 ;
     atmun:votesGruene 4 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 66 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 93 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 93 .
 
 atmun:Inzersdorf_im_Kremstal a atmun:Municipality ;
     rdfs:label "Inzersdorf im Kremstal" ;
@@ -45308,12 +44955,10 @@ atmun:Karres a atmun:Municipality ;
     atmun:validBallots 330 ;
     atmun:votesFPOe 88 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 166 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 38 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 38 .
 
 atmun:Katzelsdorf a atmun:Municipality ;
     rdfs:label "Katzelsdorf" ;
@@ -45380,12 +45025,10 @@ atmun:Kauns a atmun:Municipality ;
     atmun:validBallots 224 ;
     atmun:votesFPOe 14 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 29 ;
     atmun:votesOeVP 142 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Kefermarkt a atmun:Municipality ;
     rdfs:label "Kefermarkt" ;
@@ -45432,8 +45075,7 @@ atmun:Kematen_am_Innbach a atmun:Municipality ;
     atmun:votesNeos 41 ;
     atmun:votesOeVP 261 ;
     atmun:votesPilz 14 ;
-    atmun:votesSPOe 117 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 117 .
 
 atmun:Kematen_an_der_Ybbs a atmun:Municipality ;
     rdfs:label "Kematen an der Ybbs" ;
@@ -45474,15 +45116,13 @@ atmun:Kemeten a atmun:Municipality ;
     atmun:municipalityId 10907 ;
     atmun:spatialId "G10907" ;
     atmun:validBallots 867 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 258 ;
     atmun:votesGruene 47 ;
     atmun:votesKPOe 4 ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 217 ;
     atmun:votesPilz 15 ;
-    atmun:votesSPOe 286 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 286 .
 
 atmun:Keutschach_am_See a atmun:Municipality ;
     rdfs:label "Keutschach am See" ;
@@ -45597,7 +45237,6 @@ atmun:Kirchschlag a atmun:Municipality ;
     atmun:validBallots 398 ;
     atmun:votesFPOe 88 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 233 ;
     atmun:votesPilz 3 ;
@@ -45793,8 +45432,7 @@ atmun:Klösterle a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 135 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 40 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 40 .
 
 atmun:Kobenz a atmun:Municipality ;
     rdfs:label "Kobenz" ;
@@ -45835,7 +45473,6 @@ atmun:Kobersdorf a atmun:Municipality ;
     atmun:municipalityId 10807 ;
     atmun:spatialId "G10807" ;
     atmun:validBallots 1156 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 216 ;
     atmun:votesGruene 71 ;
     atmun:votesKPOe 4 ;
@@ -45860,7 +45497,6 @@ atmun:Kohfidisch a atmun:Municipality ;
     atmun:municipalityId 10908 ;
     atmun:spatialId "G10908" ;
     atmun:validBallots 873 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 173 ;
     atmun:votesGruene 37 ;
     atmun:votesKPOe 2 ;
@@ -45981,15 +45617,12 @@ atmun:Krensdorf a atmun:Municipality ;
     atmun:municipalityId 10619 ;
     atmun:spatialId "G10619" ;
     atmun:validBallots 342 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 61 ;
     atmun:votesGruene 18 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 159 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 91 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 91 .
 
 atmun:Kreuttal a atmun:Municipality ;
     rdfs:label "Kreuttal" ;
@@ -46056,7 +45689,6 @@ atmun:Krimml a atmun:Municipality ;
     atmun:validBallots 403 ;
     atmun:votesFPOe 51 ;
     atmun:votesGruene 19 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 244 ;
     atmun:votesPilz 2 ;
@@ -46084,8 +45716,7 @@ atmun:Krispl a atmun:Municipality ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 315 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 75 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 75 .
 
 atmun:Krottendorf_Gaisfeld a atmun:Municipality ;
     rdfs:label "Krottendorf-Gaisfeld" ;
@@ -46368,12 +45999,9 @@ atmun:Lavant a atmun:Municipality ;
     atmun:validBallots 175 ;
     atmun:votesFPOe 44 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 85 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 16 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 16 .
 
 atmun:Lebring_Sankt_Margarethen a atmun:Municipality ;
     rdfs:label "Lebring-Sankt Margarethen" ;
@@ -46420,8 +46048,7 @@ atmun:Leitzersdorf a atmun:Municipality ;
     atmun:votesNeos 60 ;
     atmun:votesOeVP 350 ;
     atmun:votesPilz 13 ;
-    atmun:votesSPOe 86 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 86 .
 
 atmun:Lend a atmun:Municipality ;
     rdfs:label "Lend" ;
@@ -46633,7 +46260,6 @@ atmun:Lorüns a atmun:Municipality ;
     atmun:validBallots 133 ;
     atmun:votesFPOe 26 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 62 ;
     atmun:votesPilz 1 ;
@@ -46657,7 +46283,6 @@ atmun:Lunz_am_See a atmun:Municipality ;
     atmun:validBallots 1089 ;
     atmun:votesFPOe 154 ;
     atmun:votesGruene 92 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 61 ;
     atmun:votesOeVP 496 ;
     atmun:votesPilz 19 ;
@@ -46777,12 +46402,9 @@ atmun:Mannsdorf_an_der_Donau a atmun:Municipality ;
     atmun:validBallots 196 ;
     atmun:votesFPOe 41 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 87 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 32 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 32 .
 
 atmun:Maria_Anzbach a atmun:Municipality ;
     rdfs:label "Maria Anzbach",
@@ -46878,8 +46500,7 @@ atmun:Mellau a atmun:Municipality ;
     atmun:votesNeos 58 ;
     atmun:votesOeVP 285 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 24 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 24 .
 
 atmun:Mettmach a atmun:Municipality ;
     rdfs:label "Mettmach" ;
@@ -46926,8 +46547,7 @@ atmun:Michaelerberg_Pruggern a atmun:Municipality ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 333 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 88 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 88 .
 
 atmun:Millstatt_am_See a atmun:Municipality ;
     rdfs:label "Millstatt am See" ;
@@ -47114,12 +46734,10 @@ atmun:Muhr a atmun:Municipality ;
     atmun:validBallots 282 ;
     atmun:votesFPOe 62 ;
     atmun:votesGruene 4 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 166 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 46 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 46 .
 
 atmun:Mureck a atmun:Municipality ;
     rdfs:label "Mureck" ;
@@ -47209,15 +46827,13 @@ atmun:Mühlgraben a atmun:Municipality ;
     atmun:municipalityId 10512 ;
     atmun:spatialId "G10512" ;
     atmun:validBallots 231 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 38 ;
     atmun:votesGruene 15 ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 63 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 99 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 99 .
 
 atmun:Mühlheim_am_Inn a atmun:Municipality ;
     rdfs:label "Mühlheim am Inn" ;
@@ -47278,18 +46894,14 @@ atmun:Namlos a atmun:Municipality ;
     atmun:electionParticipationRate 0.75 ;
     atmun:eligibleVoters 60 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70823 ;
     atmun:spatialId "G70823" ;
     atmun:validBallots 45 ;
     atmun:votesFPOe 13 ;
     atmun:votesGruene 2 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 28 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 1 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 1 .
 
 atmun:Nappersdorf_Kammersdorf a atmun:Municipality ;
     rdfs:label "Nappersdorf-Kammersdorf" ;
@@ -47332,12 +46944,9 @@ atmun:Nesselwängle a atmun:Municipality ;
     atmun:validBallots 172 ;
     atmun:votesFPOe 23 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 118 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 9 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 9 .
 
 atmun:Neuberg_im_Burgenland a atmun:Municipality ;
     rdfs:label "Neuberg im Burgenland" ;
@@ -47458,8 +47067,7 @@ atmun:Neusiedl_an_der_Zaya a atmun:Municipality ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 359 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 95 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 95 .
 
 atmun:Neutal a atmun:Municipality ;
     rdfs:label "Neutal" ;
@@ -47476,7 +47084,6 @@ atmun:Neutal a atmun:Municipality ;
     atmun:municipalityId 10814 ;
     atmun:spatialId "G10814" ;
     atmun:validBallots 701 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 92 ;
     atmun:votesGruene 30 ;
     atmun:votesKPOe 3 ;
@@ -47527,7 +47134,6 @@ atmun:Nikolsdorf a atmun:Municipality ;
     atmun:validBallots 418 ;
     atmun:votesFPOe 47 ;
     atmun:votesGruene 44 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 255 ;
     atmun:votesPilz 7 ;
@@ -47624,12 +47230,10 @@ atmun:Oberdorf_im_Burgenland a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 127 ;
     atmun:votesGruene 22 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 222 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 237 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 237 .
 
 atmun:Oberhaag a atmun:Municipality ;
     rdfs:label "Oberhaag" ;
@@ -47696,12 +47300,9 @@ atmun:Oberkappel a atmun:Municipality ;
     atmun:validBallots 306 ;
     atmun:votesFPOe 42 ;
     atmun:votesGruene 12 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 209 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 32 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 32 .
 
 atmun:Oberlienz a atmun:Municipality ;
     rdfs:label "Oberlienz" ;
@@ -47747,7 +47348,6 @@ atmun:Obertilliach a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 327 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 6 ;
     atmun:votesWandl 1 .
 
@@ -47936,7 +47536,6 @@ atmun:Ottenschlag a atmun:Municipality ;
     atmun:validBallots 594 ;
     atmun:votesFPOe 119 ;
     atmun:votesGruene 28 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 338 ;
     atmun:votesPilz 3 ;
@@ -48054,7 +47653,6 @@ atmun:Pama a atmun:Municipality ;
     atmun:municipalityId 10715 ;
     atmun:spatialId "G10715" ;
     atmun:validBallots 647 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 55 ;
     atmun:votesGruene 26 ;
     atmun:votesKPOe 1 ;
@@ -48109,8 +47707,7 @@ atmun:Pattigham a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 212 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 37 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 37 .
 
 atmun:Payerbach a atmun:Municipality ;
     rdfs:label "Payerbach" ;
@@ -48181,8 +47778,7 @@ atmun:Pernegg a atmun:Municipality ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 284 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 39 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 39 .
 
 atmun:Pernegg_an_der_Mur a atmun:Municipality ;
     rdfs:label "Pernegg an der Mur" ;
@@ -48321,7 +47917,6 @@ atmun:Pfarrkirchen_im_Mühlkreis a atmun:Municipality ;
     atmun:validBallots 790 ;
     atmun:votesFPOe 124 ;
     atmun:votesGruene 69 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 478 ;
     atmun:votesPilz 10 ;
@@ -48459,7 +48054,6 @@ atmun:Prigglitz a atmun:Municipality ;
     atmun:electionParticipationRate 0.6769 ;
     atmun:eligibleVoters 359 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 31825 ;
     atmun:spatialId "G31825" ;
     atmun:validBallots 243 ;
@@ -48469,8 +48063,7 @@ atmun:Prigglitz a atmun:Municipality ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 120 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 35 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 35 .
 
 atmun:Proleb a atmun:Municipality ;
     rdfs:label "Proleb" ;
@@ -48516,9 +48109,7 @@ atmun:Prägraten_am_Großvenediger a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 367 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 10 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 10 .
 
 atmun:Puchenau a atmun:Municipality ;
     rdfs:label "Puchenau" ;
@@ -48609,12 +48200,10 @@ atmun:Pötting a atmun:Municipality ;
     atmun:validBallots 331 ;
     atmun:votesFPOe 46 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 206 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 33 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 33 .
 
 atmun:Pühret a atmun:Municipality ;
     rdfs:label "Pühret" ;
@@ -48633,7 +48222,6 @@ atmun:Pühret a atmun:Municipality ;
     atmun:validBallots 327 ;
     atmun:votesFPOe 72 ;
     atmun:votesGruene 39 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 128 ;
     atmun:votesPilz 5 ;
@@ -48703,15 +48291,13 @@ atmun:Raiding a atmun:Municipality ;
     atmun:municipalityId 10819 ;
     atmun:spatialId "G10819" ;
     atmun:validBallots 474 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 44 ;
     atmun:votesGruene 15 ;
     atmun:votesKPOe 3 ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 191 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 202 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 202 .
 
 atmun:Rainbach_im_Mühlkreis a atmun:Municipality ;
     rdfs:label "Rainbach im Mühlkreis" ;
@@ -48805,9 +48391,7 @@ atmun:Reingers a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 227 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 48 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 48 .
 
 atmun:Reith_bei_Kitzbühel a atmun:Municipality ;
     rdfs:label "Reith bei Kitzbühel" ;
@@ -48902,8 +48486,7 @@ atmun:Ried_im_Zillertal a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 322 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 74 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 74 .
 
 atmun:Riedlingsdorf a atmun:Municipality ;
     rdfs:label "Riedlingsdorf" ;
@@ -48920,7 +48503,6 @@ atmun:Riedlingsdorf a atmun:Municipality ;
     atmun:municipalityId 10920 ;
     atmun:spatialId "G10920" ;
     atmun:validBallots 889 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 288 ;
     atmun:votesGruene 65 ;
     atmun:votesKPOe 2 ;
@@ -49023,8 +48605,7 @@ atmun:Roßbach a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 210 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 75 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 75 .
 
 atmun:Rudersdorf a atmun:Municipality ;
     rdfs:label "Rudersdorf" ;
@@ -49218,8 +48799,7 @@ atmun:Sankt_Georgen_am_Kreischberg a atmun:Municipality ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 414 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 102 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 102 .
 
 atmun:Sankt_Georgen_ob_Judenburg a atmun:Municipality ;
     rdfs:label "Sankt Georgen ob Judenburg" ;
@@ -49242,8 +48822,7 @@ atmun:Sankt_Georgen_ob_Judenburg a atmun:Municipality ;
     atmun:votesNeos 29 ;
     atmun:votesOeVP 213 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 94 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 94 .
 
 atmun:Sankt_Jakob_im_Walde a atmun:Municipality ;
     rdfs:label "Sankt Jakob im Walde" ;
@@ -49266,8 +48845,7 @@ atmun:Sankt_Jakob_im_Walde a atmun:Municipality ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 372 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 80 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 80 .
 
 atmun:Sankt_Johann_im_Pongau a atmun:Municipality ;
     rdfs:label "Sankt Johann im Pongau" ;
@@ -49557,8 +49135,7 @@ atmun:Schiedlberg a atmun:Municipality ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 389 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 86 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 86 .
 
 atmun:Schiefling_am_Wörthersee a atmun:Municipality ;
     rdfs:label "Schiefling am Wörthersee" ;
@@ -49605,8 +49182,7 @@ atmun:Schlaiten a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 135 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 18 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 18 .
 
 atmun:Schleißheim a atmun:Municipality ;
     rdfs:label "Schleißheim" ;
@@ -49677,8 +49253,7 @@ atmun:Schoppernau a atmun:Municipality ;
     atmun:votesNeos 63 ;
     atmun:votesOeVP 299 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 11 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 11 .
 
 atmun:Schrattenbach a atmun:Municipality ;
     rdfs:label "Schrattenbach" ;
@@ -49697,7 +49272,6 @@ atmun:Schrattenbach a atmun:Municipality ;
     atmun:validBallots 208 ;
     atmun:votesFPOe 41 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 102 ;
     atmun:votesPilz 5 ;
@@ -49739,18 +49313,14 @@ atmun:Schröcken a atmun:Municipality ;
     atmun:electionParticipationRate 0.5467 ;
     atmun:eligibleVoters 150 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 80234 ;
     atmun:spatialId "G80234" ;
     atmun:validBallots 82 ;
     atmun:votesFPOe 4 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 61 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 2 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 2 .
 
 atmun:Schwadorf a atmun:Municipality ;
     rdfs:label "Schwadorf" ;
@@ -49773,8 +49343,7 @@ atmun:Schwadorf a atmun:Municipality ;
     atmun:votesNeos 71 ;
     atmun:votesOeVP 313 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 311 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 311 .
 
 atmun:Schwanberg a atmun:Municipality ;
     rdfs:label "Schwanberg" ;
@@ -49917,8 +49486,7 @@ atmun:Schweiggers a atmun:Municipality ;
     atmun:votesNeos 53 ;
     atmun:votesOeVP 863 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 53 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 53 .
 
 atmun:Schwendau a atmun:Municipality ;
     rdfs:label "Schwendau" ;
@@ -49937,7 +49505,6 @@ atmun:Schwendau a atmun:Municipality ;
     atmun:validBallots 699 ;
     atmun:votesFPOe 105 ;
     atmun:votesGruene 39 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 463 ;
     atmun:votesPilz 3 ;
@@ -50369,7 +49936,6 @@ atmun:St._Georgen_am_Reith a atmun:Municipality ;
     atmun:validBallots 348 ;
     atmun:votesFPOe 58 ;
     atmun:votesGruene 16 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 197 ;
     atmun:votesPilz 2 ;
@@ -50441,7 +50007,6 @@ atmun:St._Gerold a atmun:Municipality ;
     atmun:validBallots 185 ;
     atmun:votesFPOe 30 ;
     atmun:votesGruene 17 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 101 ;
     atmun:votesPilz 4 ;
@@ -50492,7 +50057,6 @@ atmun:St._Johann_am_Wimberg a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 250 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 59 ;
     atmun:votesWandl 3 .
 
@@ -50507,13 +50071,11 @@ atmun:St._Johann_im_Walde a atmun:Municipality ;
     atmun:electionParticipationRate 0.7181 ;
     atmun:eligibleVoters 227 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70725 ;
     atmun:spatialId "G70725" ;
     atmun:validBallots 163 ;
     atmun:votesFPOe 26 ;
     atmun:votesGruene 2 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 110 ;
     atmun:votesPilz 3 ;
@@ -50685,8 +50247,7 @@ atmun:St._Pankraz a atmun:Municipality ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 50 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 31 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 31 .
 
 atmun:St._Pantaleon a atmun:Municipality ;
     rdfs:label "St. Pantaleon" ;
@@ -50853,8 +50414,7 @@ atmun:St._Urban a atmun:Municipality ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 229 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 140 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 140 .
 
 atmun:St._Veit_im_Mühlkreis a atmun:Municipality ;
     rdfs:label "St. Veit im Mühlkreis" ;
@@ -50901,8 +50461,7 @@ atmun:Staatz a atmun:Municipality ;
     atmun:votesNeos 45 ;
     atmun:votesOeVP 617 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 187 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 187 .
 
 atmun:Stans a atmun:Municipality ;
     rdfs:label "Stans" ;
@@ -50949,8 +50508,7 @@ atmun:Stattegg a atmun:Municipality ;
     atmun:votesNeos 161 ;
     atmun:votesOeVP 542 ;
     atmun:votesPilz 29 ;
-    atmun:votesSPOe 173 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 173 .
 
 atmun:Steinbach_am_Ziehberg a atmun:Municipality ;
     rdfs:label "Steinbach am Ziehberg" ;
@@ -51020,9 +50578,7 @@ atmun:Steinberg_am_Rofan a atmun:Municipality ;
     atmun:votesKPOe 1 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 98 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 5 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 5 .
 
 atmun:Steinbrunn a atmun:Municipality ;
     rdfs:label "Steinbrunn" ;
@@ -51088,10 +50644,8 @@ atmun:Stinatz a atmun:Municipality ;
     atmun:municipalityId 10415 ;
     atmun:spatialId "G10415" ;
     atmun:validBallots 645 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 53 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 210 ;
     atmun:votesPilz 6 ;
@@ -51192,8 +50746,7 @@ atmun:Strem a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 309 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 85 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 85 .
 
 atmun:Strengen a atmun:Municipality ;
     rdfs:label "Strengen" ;
@@ -51212,7 +50765,6 @@ atmun:Strengen a atmun:Municipality ;
     atmun:validBallots 610 ;
     atmun:votesFPOe 73 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 336 ;
     atmun:votesPilz 18 ;
@@ -51408,8 +50960,7 @@ atmun:Thurn a atmun:Municipality ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 196 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 16 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 16 .
 
 atmun:Thüringerberg a atmun:Municipality ;
     rdfs:label "Thüringerberg" ;
@@ -51432,8 +50983,7 @@ atmun:Thüringerberg a atmun:Municipality ;
     atmun:votesNeos 56 ;
     atmun:votesOeVP 181 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 24 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 24 .
 
 atmun:Trautmannsdorf_an_der_Leitha a atmun:Municipality ;
     rdfs:label "Trautmannsdorf an der Leitha" ;
@@ -51481,8 +51031,7 @@ atmun:Trebesing a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 266 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 96 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 96 .
 
 atmun:Treubach a atmun:Municipality ;
     rdfs:label "Treubach" ;
@@ -51643,15 +51192,12 @@ atmun:Unterkohlstätten a atmun:Municipality ;
     atmun:municipalityId 10924 ;
     atmun:spatialId "G10924" ;
     atmun:validBallots 655 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 83 ;
     atmun:votesGruene 17 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 271 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 265 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 265 .
 
 atmun:Unterlamm a atmun:Municipality ;
     rdfs:label "Unterlamm" ;
@@ -51688,18 +51234,15 @@ atmun:Unterperfuss a atmun:Municipality ;
     atmun:electionParticipationRate 0.3681 ;
     atmun:eligibleVoters 182 ;
     atmun:hasNeighborCount 5 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70361 ;
     atmun:spatialId "G70361" ;
     atmun:validBallots 67 ;
     atmun:votesFPOe 10 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 35 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Utzenaich a atmun:Municipality ;
     rdfs:label "Utzenaich" ;
@@ -51818,8 +51361,7 @@ atmun:Vorderstoder a atmun:Municipality ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 219 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 39 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 39 .
 
 atmun:Vöcklabruck a atmun:Municipality ;
     rdfs:label "Vöcklabruck" ;
@@ -51962,8 +51504,7 @@ atmun:Walchsee a atmun:Municipality ;
     atmun:votesNeos 43 ;
     atmun:votesOeVP 480 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 44 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 44 .
 
 atmun:Wald_im_Pinzgau a atmun:Municipality ;
     rdfs:label "Wald im Pinzgau" ;
@@ -51982,7 +51523,6 @@ atmun:Wald_im_Pinzgau a atmun:Municipality ;
     atmun:validBallots 514 ;
     atmun:votesFPOe 94 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 293 ;
     atmun:votesPilz 3 ;
@@ -52314,8 +51854,7 @@ atmun:Willendorf a atmun:Municipality ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 202 ;
     atmun:votesPilz 20 ;
-    atmun:votesSPOe 85 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 85 .
 
 atmun:Windhaag_bei_Perg a atmun:Municipality ;
     rdfs:label "Windhaag bei Perg" ;
@@ -52410,8 +51949,7 @@ atmun:Wängle a atmun:Municipality ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 248 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 42 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 42 .
 
 atmun:Wölbling a atmun:Municipality ;
     rdfs:label "Wölbling" ;
@@ -52507,8 +52045,7 @@ atmun:Zöbern a atmun:Municipality ;
     atmun:votesNeos 45 ;
     atmun:votesOeVP 543 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 96 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 96 .
 
 atmun:Überackern a atmun:Municipality ;
     rdfs:label "Überackern" ;
@@ -52527,12 +52064,10 @@ atmun:Überackern a atmun:Municipality ;
     atmun:validBallots 249 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 130 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 36 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 36 .
 
 atmun:Aigen_im_Ennstal a atmun:Municipality ;
     rdfs:label "Aigen im Ennstal" ;
@@ -52581,8 +52116,7 @@ atmun:Ainet a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 267 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 31 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 31 .
 
 atmun:Aldrans a atmun:Municipality ;
     rdfs:label "Aldrans" ;
@@ -52806,8 +52340,7 @@ atmun:Annaberg a atmun:Municipality ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 146 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 42 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 42 .
 
 atmun:Anras a atmun:Municipality ;
     rdfs:label "Anras" ;
@@ -53156,8 +52689,7 @@ atmun:Bach a atmun:Municipality ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 169 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 15 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 15 .
 
 atmun:Bachmanning a atmun:Municipality ;
     rdfs:label "Bachmanning" ;
@@ -53181,8 +52713,7 @@ atmun:Bachmanning a atmun:Municipality ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 130 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 68 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 68 .
 
 atmun:Bad_Aussee a atmun:Municipality ;
     rdfs:label "Bad Aussee" ;
@@ -53406,8 +52937,7 @@ atmun:Baldramsdorf a atmun:Municipality ;
     atmun:votesNeos 41 ;
     atmun:votesOeVP 274 ;
     atmun:votesPilz 13 ;
-    atmun:votesSPOe 254 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 254 .
 
 atmun:Bergern_im_Dunkelsteinerwald a atmun:Municipality ;
     rdfs:label "Bergern im Dunkelsteinerwald" ;
@@ -53427,7 +52957,6 @@ atmun:Bergern_im_Dunkelsteinerwald a atmun:Municipality ;
     atmun:validBallots 774 ;
     atmun:votesFPOe 138 ;
     atmun:votesGruene 61 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 389 ;
     atmun:votesPilz 12 ;
@@ -53552,7 +53081,6 @@ atmun:Bischofstetten a atmun:Municipality ;
     atmun:validBallots 747 ;
     atmun:votesFPOe 93 ;
     atmun:votesGruene 45 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 386 ;
     atmun:votesPilz 13 ;
@@ -53596,18 +53124,15 @@ atmun:Blons a atmun:Municipality ;
     atmun:electionParticipationRate 0.6878 ;
     atmun:eligibleVoters 237 ;
     atmun:hasNeighborCount 6 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 80102 ;
     atmun:spatialId "G80102" ;
     atmun:validBallots 163 ;
     atmun:votesFPOe 19 ;
     atmun:votesGruene 10 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 93 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 7 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 7 .
 
 atmun:Bockfließ a atmun:Municipality ;
     rdfs:label "Bockfließ" ;
@@ -53652,7 +53177,6 @@ atmun:Bramberg_am_Wildkogel a atmun:Municipality ;
     atmun:validBallots 2033 ;
     atmun:votesFPOe 303 ;
     atmun:votesGruene 90 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 101 ;
     atmun:votesOeVP 1129 ;
     atmun:votesPilz 22 ;
@@ -53677,12 +53201,10 @@ atmun:Breitenstein a atmun:Municipality ;
     atmun:validBallots 150 ;
     atmun:votesFPOe 34 ;
     atmun:votesGruene 18 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 6 ;
     atmun:votesOeVP 63 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 28 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 28 .
 
 atmun:Brixlegg a atmun:Municipality ;
     rdfs:label "Brixlegg" ;
@@ -53780,7 +53302,6 @@ atmun:Buch a atmun:Municipality ;
     atmun:votesKPOe 3 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 176 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 13 ;
     atmun:votesWandl 5 .
 
@@ -53877,12 +53398,10 @@ atmun:Damüls a atmun:Municipality ;
     atmun:validBallots 152 ;
     atmun:votesFPOe 11 ;
     atmun:votesGruene 10 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 116 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 2 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 2 .
 
 atmun:Dechantskirchen a atmun:Municipality ;
     rdfs:label "Dechantskirchen" ;
@@ -53932,8 +53451,7 @@ atmun:Deutsch_Schützen_Eisenberg a atmun:Municipality ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 373 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 129 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 129 .
 
 atmun:Donnerskirchen a atmun:Municipality ;
     rdfs:label "Donnerskirchen" ;
@@ -53951,7 +53469,6 @@ atmun:Donnerskirchen a atmun:Municipality ;
     atmun:municipalityId 10302 ;
     atmun:spatialId "G10302" ;
     atmun:validBallots 1059 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 200 ;
     atmun:votesGruene 67 ;
     atmun:votesKPOe 6 ;
@@ -54058,8 +53575,7 @@ atmun:Dürnstein a atmun:Municipality ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 298 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 78 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 78 .
 
 atmun:Ebbs a atmun:Municipality ;
     rdfs:label "Ebbs" ;
@@ -54255,7 +53771,6 @@ atmun:Eltendorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 126 ;
     atmun:votesGruene 34 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 207 ;
     atmun:votesPilz 6 ;
@@ -54380,12 +53895,10 @@ atmun:Fallbach a atmun:Municipality ;
     atmun:validBallots 474 ;
     atmun:votesFPOe 57 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 327 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 40 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 40 .
 
 atmun:Feistritztal a atmun:Municipality ;
     rdfs:label "Feistritztal" ;
@@ -54585,8 +54098,7 @@ atmun:Frankenau_Unterpullendorf a atmun:Municipality ;
     atmun:votesNeos 24 ;
     atmun:votesOeVP 289 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 183 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 183 .
 
 atmun:Frankenmarkt a atmun:Municipality ;
     rdfs:label "Frankenmarkt" ;
@@ -54787,8 +54299,7 @@ atmun:Gabersdorf a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 313 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 79 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 79 .
 
 atmun:Gaflenz a atmun:Municipality ;
     rdfs:label "Gaflenz" ;
@@ -54856,15 +54367,13 @@ atmun:Gattendorf a atmun:Municipality ;
     atmun:municipalityId 10706 ;
     atmun:spatialId "G10706" ;
     atmun:validBallots 704 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 147 ;
     atmun:votesGruene 35 ;
     atmun:votesKPOe 6 ;
     atmun:votesNeos 25 ;
     atmun:votesOeVP 269 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 215 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 215 .
 
 atmun:Geboltskirchen a atmun:Municipality ;
     rdfs:label "Geboltskirchen" ;
@@ -54963,8 +54472,7 @@ atmun:Geistthal_Södingberg a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 367 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 147 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 147 .
 
 atmun:Gerersdorf a atmun:Municipality ;
     rdfs:label "Gerersdorf" ;
@@ -55007,15 +54515,12 @@ atmun:Gerersdorf_Sulz a atmun:Municipality ;
     atmun:municipalityId 10404 ;
     atmun:spatialId "G10404" ;
     atmun:validBallots 597 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 83 ;
     atmun:votesGruene 42 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 16 ;
     atmun:votesOeVP 282 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 171 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 171 .
 
 atmun:Gersdorf_an_der_Feistritz a atmun:Municipality ;
     rdfs:label "Gersdorf an der Feistritz" ;
@@ -55110,7 +54615,6 @@ atmun:Going_am_Wilden_Kaiser a atmun:Municipality ;
     atmun:validBallots 736 ;
     atmun:votesFPOe 134 ;
     atmun:votesGruene 64 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 430 ;
     atmun:votesPilz 15 ;
@@ -55465,8 +54969,7 @@ atmun:Gutenbrunn a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 131 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 105 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 105 .
 
 atmun:Guttaring a atmun:Municipality ;
     rdfs:label "Guttaring" ;
@@ -55586,7 +55089,6 @@ atmun:Göttlesbrunn_Arbesthal a atmun:Municipality ;
     atmun:validBallots 852 ;
     atmun:votesFPOe 144 ;
     atmun:votesGruene 50 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 65 ;
     atmun:votesOeVP 483 ;
     atmun:votesPilz 5 ;
@@ -55659,15 +55161,12 @@ atmun:Hackerberg a atmun:Municipality ;
     atmun:municipalityId 10418 ;
     atmun:spatialId "G10418" ;
     atmun:validBallots 201 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 26 ;
     atmun:votesGruene 8 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 105 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 58 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 58 .
 
 atmun:Haibach_ob_der_Donau a atmun:Municipality ;
     rdfs:label "Haibach ob der Donau" ;
@@ -56007,18 +55506,12 @@ atmun:Hinterhornbach a atmun:Municipality ;
     atmun:electionParticipationRate 0.8143 ;
     atmun:eligibleVoters 70 ;
     atmun:hasNeighborCount 6 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70815 ;
     atmun:spatialId "G70815" ;
     atmun:validBallots 57 ;
     atmun:votesFPOe 6 ;
-    atmun:votesGruene 0 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
-    atmun:votesOeVP 50 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 0 ;
-    atmun:votesWandl 0 .
+    atmun:votesOeVP 50 .
 
 atmun:Hittisau a atmun:Municipality ;
     rdfs:label "Hittisau" ;
@@ -56093,8 +55586,7 @@ atmun:Hochneukirchen_Gschaidt a atmun:Municipality ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 628 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 105 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 105 .
 
 atmun:Hof_am_Leithaberge a atmun:Municipality ;
     rdfs:label "Hof am Leithaberge" ;
@@ -56114,7 +55606,6 @@ atmun:Hof_am_Leithaberge a atmun:Municipality ;
     atmun:validBallots 915 ;
     atmun:votesFPOe 207 ;
     atmun:votesGruene 67 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 422 ;
     atmun:votesPilz 12 ;
@@ -56264,10 +55755,8 @@ atmun:Hörbich a atmun:Municipality ;
     atmun:validBallots 255 ;
     atmun:votesFPOe 55 ;
     atmun:votesGruene 24 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 148 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 17 ;
     atmun:votesWandl 2 .
 
@@ -56343,8 +55832,7 @@ atmun:Irnfritz_Messern a atmun:Municipality ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 548 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 92 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 92 .
 
 atmun:Jennersdorf a atmun:Municipality ;
     rdfs:label "Jennersdorf" ;
@@ -56362,7 +55850,6 @@ atmun:Jennersdorf a atmun:Municipality ;
     atmun:municipalityId 10504 ;
     atmun:spatialId "G10504" ;
     atmun:validBallots 2225 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 619 ;
     atmun:votesGruene 201 ;
     atmun:votesKPOe 13 ;
@@ -56615,12 +56102,10 @@ atmun:Karrösten a atmun:Municipality ;
     atmun:validBallots 343 ;
     atmun:votesFPOe 53 ;
     atmun:votesGruene 23 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 162 ;
     atmun:votesPilz 15 ;
-    atmun:votesSPOe 62 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 62 .
 
 atmun:Kartitsch a atmun:Municipality ;
     rdfs:label "Kartitsch" ;
@@ -56644,8 +56129,7 @@ atmun:Kartitsch a atmun:Municipality ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 311 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 5 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 5 .
 
 atmun:Kasten_bei_Böheimkirchen a atmun:Municipality ;
     rdfs:label "Kasten bei Böheimkirchen" ;
@@ -56819,8 +56303,7 @@ atmun:Kitzeck_im_Sausal a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 296 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 127 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 127 .
 
 atmun:Kleinzell a atmun:Municipality ;
     rdfs:label "Kleinzell" ;
@@ -56919,8 +56402,7 @@ atmun:Kolsassberg a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 223 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 30 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 30 .
 
 atmun:Kottingbrunn a atmun:Municipality ;
     rdfs:label "Kottingbrunn" ;
@@ -57066,12 +56548,10 @@ atmun:Königsdorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 89 ;
     atmun:votesGruene 19 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 181 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 137 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 137 .
 
 atmun:Königstetten a atmun:Municipality ;
     rdfs:label "Königstetten" ;
@@ -57189,7 +56669,6 @@ atmun:Lackenbach a atmun:Municipality ;
     atmun:municipalityId 10808 ;
     atmun:spatialId "G10808" ;
     atmun:validBallots 621 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 108 ;
     atmun:votesGruene 29 ;
     atmun:votesKPOe 1 ;
@@ -57215,15 +56694,12 @@ atmun:Lackendorf a atmun:Municipality ;
     atmun:municipalityId 10824 ;
     atmun:spatialId "G10824" ;
     atmun:validBallots 331 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 46 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 114 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 150 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 150 .
 
 atmun:Lafnitz a atmun:Municipality ;
     rdfs:label "Lafnitz" ;
@@ -57447,8 +56923,7 @@ atmun:Leisach a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 197 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 34 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 34 .
 
 atmun:Leopoldsdorf a atmun:Municipality ;
     rdfs:label "Leopoldsdorf" ;
@@ -57518,12 +56993,10 @@ atmun:Lessach a atmun:Municipality ;
     atmun:validBallots 309 ;
     atmun:votesFPOe 54 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 200 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 29 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 29 .
 
 atmun:Lichtenau_im_Waldviertel a atmun:Municipality ;
     rdfs:label "Lichtenau im Waldviertel" ;
@@ -57667,7 +57140,6 @@ atmun:Loipersdorf_Kitzladen a atmun:Municipality ;
     atmun:municipalityId 10910 ;
     atmun:spatialId "G10910" ;
     atmun:validBallots 823 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 210 ;
     atmun:votesGruene 34 ;
     atmun:votesKPOe 1 ;
@@ -57699,8 +57171,7 @@ atmun:Ludmannsdorf a atmun:Municipality ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 331 ;
     atmun:votesPilz 19 ;
-    atmun:votesSPOe 262 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 262 .
 
 atmun:Ludweis_Aigen a atmun:Municipality ;
     rdfs:label "Ludweis-Aigen" ;
@@ -57995,7 +57466,6 @@ atmun:Miesenbach a atmun:Municipality ;
     atmun:validBallots 403 ;
     atmun:votesFPOe 78 ;
     atmun:votesGruene 26 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 213 ;
     atmun:votesPilz 2 ;
@@ -58120,12 +57590,9 @@ atmun:Mörschwang a atmun:Municipality ;
     atmun:validBallots 176 ;
     atmun:votesFPOe 25 ;
     atmun:votesGruene 34 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 94 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Mörtschach a atmun:Municipality ;
     rdfs:label "Mörtschach" ;
@@ -58149,8 +57616,7 @@ atmun:Mörtschach a atmun:Municipality ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 221 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 36 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 36 .
 
 atmun:Münchendorf a atmun:Municipality ;
     rdfs:label "Münchendorf" ;
@@ -58548,7 +58014,6 @@ atmun:Niederkappel a atmun:Municipality ;
     atmun:votesKPOe 6 ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 324 ;
-    atmun:votesPilz 0 ;
     atmun:votesSPOe 45 ;
     atmun:votesWandl 1 .
 
@@ -58570,7 +58035,6 @@ atmun:Niederthalheim a atmun:Municipality ;
     atmun:validBallots 564 ;
     atmun:votesFPOe 106 ;
     atmun:votesGruene 76 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 52 ;
     atmun:votesOeVP 256 ;
     atmun:votesPilz 7 ;
@@ -59171,7 +58635,6 @@ atmun:Pierbach a atmun:Municipality ;
     atmun:validBallots 576 ;
     atmun:votesFPOe 132 ;
     atmun:votesGruene 28 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 297 ;
     atmun:votesPilz 2 ;
@@ -59194,15 +58657,13 @@ atmun:Pilgersdorf a atmun:Municipality ;
     atmun:municipalityId 10817 ;
     atmun:spatialId "G10817" ;
     atmun:validBallots 1004 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 135 ;
     atmun:votesGruene 53 ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 533 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 232 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 232 .
 
 atmun:Pill a atmun:Municipality ;
     rdfs:label "Pill" ;
@@ -59222,7 +58683,6 @@ atmun:Pill a atmun:Municipality ;
     atmun:validBallots 584 ;
     atmun:votesFPOe 172 ;
     atmun:votesGruene 63 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 291 ;
     atmun:votesPilz 6 ;
@@ -59247,7 +58707,6 @@ atmun:Pilsbach a atmun:Municipality ;
     atmun:validBallots 358 ;
     atmun:votesFPOe 44 ;
     atmun:votesGruene 40 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 158 ;
     atmun:votesPilz 4 ;
@@ -59352,8 +58811,7 @@ atmun:Polling_im_Innkreis a atmun:Municipality ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 221 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 61 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 61 .
 
 atmun:Prambachkirchen a atmun:Municipality ;
     rdfs:label "Prambachkirchen" ;
@@ -59402,8 +58860,7 @@ atmun:Preding a atmun:Municipality ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 336 ;
     atmun:votesPilz 18 ;
-    atmun:votesSPOe 172 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 172 .
 
 atmun:Premstätten a atmun:Municipality ;
     rdfs:label "Premstätten" ;
@@ -59448,12 +58905,10 @@ atmun:Prottes a atmun:Municipality ;
     atmun:validBallots 726 ;
     atmun:votesFPOe 139 ;
     atmun:votesGruene 55 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 319 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 162 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 162 .
 
 atmun:Prutz a atmun:Municipality ;
     rdfs:label "Prutz" ;
@@ -59523,12 +58978,10 @@ atmun:Puchenstuben a atmun:Municipality ;
     atmun:validBallots 165 ;
     atmun:votesFPOe 27 ;
     atmun:votesGruene 6 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 73 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 49 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 49 .
 
 atmun:Pulkau a atmun:Municipality ;
     rdfs:label "Pulkau" ;
@@ -59849,7 +59302,6 @@ atmun:Ramsau a atmun:Municipality ;
     atmun:validBallots 425 ;
     atmun:votesFPOe 71 ;
     atmun:votesGruene 34 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 220 ;
     atmun:votesPilz 9 ;
@@ -59924,7 +59376,6 @@ atmun:Ranten a atmun:Municipality ;
     atmun:validBallots 658 ;
     atmun:votesFPOe 91 ;
     atmun:votesGruene 27 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 403 ;
     atmun:votesPilz 7 ;
@@ -59974,7 +59425,6 @@ atmun:Raxendorf a atmun:Municipality ;
     atmun:validBallots 649 ;
     atmun:votesFPOe 126 ;
     atmun:votesGruene 18 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 372 ;
     atmun:votesPilz 7 ;
@@ -60122,10 +59572,8 @@ atmun:Rohr_im_Burgenland a atmun:Municipality ;
     atmun:municipalityId 10425 ;
     atmun:spatialId "G10425" ;
     atmun:validBallots 240 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 50 ;
     atmun:votesGruene 8 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 110 ;
     atmun:votesPilz 1 ;
@@ -60173,7 +59621,6 @@ atmun:Rohrbach_bei_Mattersburg a atmun:Municipality ;
     atmun:municipalityId 10610 ;
     atmun:spatialId "G10610" ;
     atmun:validBallots 1537 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 232 ;
     atmun:votesGruene 99 ;
     atmun:votesKPOe 6 ;
@@ -60224,7 +59671,6 @@ atmun:Rotenturm_an_der_Pinka a atmun:Municipality ;
     atmun:municipalityId 10921 ;
     atmun:spatialId "G10921" ;
     atmun:validBallots 875 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 121 ;
     atmun:votesGruene 45 ;
     atmun:votesKPOe 5 ;
@@ -60281,8 +59727,7 @@ atmun:Rutzenham a atmun:Municipality ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 82 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:Rußbach a atmun:Municipality ;
     rdfs:label "Rußbach" ;
@@ -60327,12 +59772,9 @@ atmun:Röhrenbach a atmun:Municipality ;
     atmun:validBallots 320 ;
     atmun:votesFPOe 58 ;
     atmun:votesGruene 13 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 227 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 17 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 17 .
 
 atmun:Röschitz a atmun:Municipality ;
     rdfs:label "Röschitz" ;
@@ -60531,8 +59973,7 @@ atmun:Sankt_Marein_Feistritz a atmun:Municipality ;
     atmun:votesNeos 64 ;
     atmun:votesOeVP 427 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 218 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 218 .
 
 atmun:Sankt_Marein_bei_Graz a atmun:Municipality ;
     rdfs:label "Sankt Marein bei Graz" ;
@@ -60753,7 +60194,6 @@ atmun:Schachendorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 61 ;
     atmun:votesGruene 31 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 193 ;
     atmun:votesPilz 6 ;
@@ -60807,8 +60247,7 @@ atmun:Scharndorf a atmun:Municipality ;
     atmun:votesNeos 34 ;
     atmun:votesOeVP 370 ;
     atmun:votesPilz 15 ;
-    atmun:votesSPOe 112 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 112 .
 
 atmun:Scharten a atmun:Municipality ;
     rdfs:label "Scharten" ;
@@ -61032,8 +60471,7 @@ atmun:Schottwien a atmun:Municipality ;
     atmun:votesNeos 11 ;
     atmun:votesOeVP 155 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 65 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 65 .
 
 atmun:Schwarzau_im_Gebirge a atmun:Municipality ;
     rdfs:label "Schwarzau im Gebirge" ;
@@ -61057,8 +60495,7 @@ atmun:Schwarzau_im_Gebirge a atmun:Municipality ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 141 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 72 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 72 .
 
 atmun:Schwaz a atmun:Municipality ;
     rdfs:label "Schwaz" ;
@@ -61181,9 +60618,7 @@ atmun:Schönbach a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 322 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 39 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 39 .
 
 atmun:Schörfling_am_Attersee a atmun:Municipality ;
     rdfs:label "Schörfling am Attersee" ;
@@ -61282,8 +60717,7 @@ atmun:Senftenbach a atmun:Municipality ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 157 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 42 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 42 .
 
 atmun:Senftenberg a atmun:Municipality ;
     rdfs:label "Senftenberg" ;
@@ -61629,7 +61063,6 @@ atmun:St._Leonhard_im_Pitztal a atmun:Municipality ;
     atmun:validBallots 626 ;
     atmun:votesFPOe 89 ;
     atmun:votesGruene 24 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 480 ;
     atmun:votesPilz 1 ;
@@ -61733,8 +61166,7 @@ atmun:St._Peter_am_Kammersberg a atmun:Municipality ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 513 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 278 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 278 .
 
 atmun:St._Thomas_am_Blasenstein a atmun:Municipality ;
     rdfs:label "St. Thomas am Blasenstein" ;
@@ -61804,12 +61236,10 @@ atmun:St._Veit_in_Defereggen a atmun:Municipality ;
     atmun:validBallots 345 ;
     atmun:votesFPOe 50 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 24 ;
     atmun:votesOeVP 240 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 10 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 10 .
 
 atmun:St._Willibald a atmun:Municipality ;
     rdfs:label "St. Willibald" ;
@@ -62110,8 +61540,7 @@ atmun:Stotzing a atmun:Municipality ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 203 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 126 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 126 .
 
 atmun:Strallegg a atmun:Municipality ;
     rdfs:label "Strallegg" ;
@@ -62231,7 +61660,6 @@ atmun:Stumm a atmun:Municipality ;
     atmun:validBallots 810 ;
     atmun:votesFPOe 119 ;
     atmun:votesGruene 78 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 453 ;
     atmun:votesPilz 11 ;
@@ -62431,12 +61859,10 @@ atmun:Thomatal a atmun:Municipality ;
     atmun:validBallots 184 ;
     atmun:votesFPOe 58 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 80 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 21 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 21 .
 
 atmun:Thörl a atmun:Municipality ;
     rdfs:label "Thörl" ;
@@ -62610,8 +62036,7 @@ atmun:Tweng a atmun:Municipality ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 46 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 12 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 12 .
 
 atmun:Unterach_am_Attersee a atmun:Municipality ;
     rdfs:label "Unterach am Attersee" ;
@@ -62654,7 +62079,6 @@ atmun:Unterfrauenhaid a atmun:Municipality ;
     atmun:municipalityId 10825 ;
     atmun:spatialId "G10825" ;
     atmun:validBallots 381 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 51 ;
     atmun:votesGruene 8 ;
     atmun:votesKPOe 4 ;
@@ -62726,18 +62150,15 @@ atmun:Untertauern a atmun:Municipality ;
     atmun:electionParticipationRate 0.4877 ;
     atmun:eligibleVoters 326 ;
     atmun:hasNeighborCount 6 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 50422 ;
     atmun:spatialId "G50422" ;
     atmun:validBallots 159 ;
     atmun:votesFPOe 32 ;
     atmun:votesGruene 5 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 5 ;
     atmun:votesOeVP 99 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 17 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 17 .
 
 atmun:Unterwart a atmun:Municipality ;
     rdfs:label "Unterwart" ;
@@ -62758,12 +62179,10 @@ atmun:Unterwart a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 88 ;
     atmun:votesGruene 23 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 10 ;
     atmun:votesOeVP 209 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 136 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 136 .
 
 atmun:Unterweitersdorf a atmun:Municipality ;
     rdfs:label "Unterweitersdorf" ;
@@ -62858,12 +62277,10 @@ atmun:Viktorsberg a atmun:Municipality ;
     atmun:validBallots 189 ;
     atmun:votesFPOe 17 ;
     atmun:votesGruene 21 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 105 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 14 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 14 .
 
 atmun:Vöcklamarkt a atmun:Municipality ;
     rdfs:label "Vöcklamarkt" ;
@@ -63278,7 +62695,6 @@ atmun:Wattenberg a atmun:Municipality ;
     atmun:electionParticipationRate 0.6593 ;
     atmun:eligibleVoters 587 ;
     atmun:hasNeighborCount 6 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70366 ;
     atmun:spatialId "G70366" ;
     atmun:validBallots 387 ;
@@ -63288,8 +62704,7 @@ atmun:Wattenberg a atmun:Municipality ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 205 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 11 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 11 .
 
 atmun:Weerberg a atmun:Municipality ;
     rdfs:label "Weerberg" ;
@@ -63313,8 +62728,7 @@ atmun:Weerberg a atmun:Municipality ;
     atmun:votesNeos 72 ;
     atmun:votesOeVP 803 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 54 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 54 .
 
 atmun:Weibern a atmun:Municipality ;
     rdfs:label "Weibern" ;
@@ -63357,7 +62771,6 @@ atmun:Weichselbaum a atmun:Municipality ;
     atmun:municipalityId 10510 ;
     atmun:spatialId "G10510" ;
     atmun:validBallots 436 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 85 ;
     atmun:votesGruene 16 ;
     atmun:votesKPOe 2 ;
@@ -63465,8 +62878,7 @@ atmun:Weiten a atmun:Municipality ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 313 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 68 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 68 .
 
 atmun:Weißenkirchen_im_Attergau a atmun:Municipality ;
     rdfs:label "Weißenkirchen im Attergau" ;
@@ -63511,12 +62923,9 @@ atmun:Weißpriach a atmun:Municipality ;
     atmun:validBallots 158 ;
     atmun:votesFPOe 27 ;
     atmun:votesGruene 5 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 94 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 28 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 28 .
 
 atmun:Wendling a atmun:Municipality ;
     rdfs:label "Wendling" ;
@@ -63561,7 +62970,6 @@ atmun:Weng_im_Innkreis a atmun:Municipality ;
     atmun:validBallots 693 ;
     atmun:votesFPOe 201 ;
     atmun:votesGruene 60 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 31 ;
     atmun:votesOeVP 296 ;
     atmun:votesPilz 4 ;
@@ -63615,8 +63023,7 @@ atmun:Werfenweng a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 252 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 18 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 18 .
 
 atmun:Westendorf a atmun:Municipality ;
     rdfs:label "Westendorf" ;
@@ -63831,7 +63238,6 @@ atmun:Winklern a atmun:Municipality ;
     atmun:validBallots 530 ;
     atmun:votesFPOe 133 ;
     atmun:votesGruene 20 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 228 ;
     atmun:votesPilz 3 ;
@@ -64082,12 +63488,10 @@ atmun:Zederhaus a atmun:Municipality ;
     atmun:validBallots 612 ;
     atmun:votesFPOe 146 ;
     atmun:votesGruene 17 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 12 ;
     atmun:votesOeVP 387 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 48 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 48 .
 
 atmun:Zellberg a atmun:Municipality ;
     rdfs:label "Zellberg" ;
@@ -64264,8 +63668,7 @@ atmun:Albeck a atmun:Municipality ;
     atmun:votesNeos 24 ;
     atmun:votesOeVP 159 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 85 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 85 .
 
 atmun:Altenburg a atmun:Municipality ;
     rdfs:label "Altenburg" ;
@@ -64472,8 +63875,7 @@ atmun:Au_am_Leithaberge a atmun:Municipality ;
     atmun:votesNeos 29 ;
     atmun:votesOeVP 319 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 63 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 63 .
 
 atmun:Aurach_am_Hongar a atmun:Municipality ;
     rdfs:label "Aurach am Hongar" ;
@@ -64674,7 +64076,6 @@ atmun:Bernstein a atmun:Municipality ;
     atmun:municipalityId 10902 ;
     atmun:spatialId "G10902" ;
     atmun:validBallots 1223 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 207 ;
     atmun:votesGruene 61 ;
     atmun:votesKPOe 2 ;
@@ -64703,12 +64104,10 @@ atmun:Berwang a atmun:Municipality ;
     atmun:validBallots 277 ;
     atmun:votesFPOe 40 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 164 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 17 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 17 .
 
 atmun:Bezau a atmun:Municipality ;
     rdfs:label "Bezau" ;
@@ -64811,8 +64210,7 @@ atmun:Breitenau_am_Hochlantsch a atmun:Municipality ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 385 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 265 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 265 .
 
 atmun:Breitenbach_am_Inn a atmun:Municipality ;
     rdfs:label "Breitenbach am Inn" ;
@@ -65099,8 +64497,7 @@ atmun:Bärnkopf a atmun:Municipality ;
     atmun:votesNeos 6 ;
     atmun:votesOeVP 74 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 105 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 105 .
 
 atmun:Dalaas a atmun:Municipality ;
     rdfs:label "Dalaas" ;
@@ -65204,8 +64601,7 @@ atmun:Diersbach a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 376 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 115 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 115 .
 
 atmun:Draßburg a atmun:Municipality ;
     rdfs:label "Draßburg" ;
@@ -65224,7 +64620,6 @@ atmun:Draßburg a atmun:Municipality ;
     atmun:municipalityId 10601 ;
     atmun:spatialId "G10601" ;
     atmun:validBallots 617 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 74 ;
     atmun:votesGruene 37 ;
     atmun:votesKPOe 4 ;
@@ -65335,8 +64730,7 @@ atmun:Ebenthal a atmun:Municipality ;
     atmun:votesNeos 28 ;
     atmun:votesOeVP 216 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 105 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 105 .
 
 atmun:Ebenthal_in_Kärnten a atmun:Municipality ;
     rdfs:label "Ebenthal in Kärnten" ;
@@ -65622,8 +65016,7 @@ atmun:Engelhartszell a atmun:Municipality ;
     atmun:votesNeos 14 ;
     atmun:votesOeVP 178 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 54 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 54 .
 
 atmun:Enzenkirchen a atmun:Municipality ;
     rdfs:label "Enzenkirchen" ;
@@ -65800,7 +65193,6 @@ atmun:Fiss a atmun:Municipality ;
     atmun:validBallots 413 ;
     atmun:votesFPOe 22 ;
     atmun:votesGruene 22 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 322 ;
     atmun:votesPilz 1 ;
@@ -65826,7 +65218,6 @@ atmun:Flattach a atmun:Municipality ;
     atmun:validBallots 569 ;
     atmun:votesFPOe 151 ;
     atmun:votesGruene 22 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 24 ;
     atmun:votesOeVP 247 ;
     atmun:votesPilz 4 ;
@@ -66028,13 +65419,11 @@ atmun:Gerlos a atmun:Municipality ;
     atmun:electionParticipationRate 0.6628 ;
     atmun:eligibleVoters 596 ;
     atmun:hasNeighborCount 7 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70912 ;
     atmun:spatialId "G70912" ;
     atmun:validBallots 395 ;
     atmun:votesFPOe 62 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 248 ;
     atmun:votesPilz 10 ;
@@ -66090,8 +65479,7 @@ atmun:Gnadendorf a atmun:Municipality ;
     atmun:votesNeos 40 ;
     atmun:votesOeVP 405 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 73 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 73 .
 
 atmun:Gnas a atmun:Municipality ;
     rdfs:label "Gnas" ;
@@ -66370,7 +65758,6 @@ atmun:Großwarasdorf a atmun:Municipality ;
     atmun:municipalityId 10804 ;
     atmun:spatialId "G10804" ;
     atmun:validBallots 798 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 90 ;
     atmun:votesGruene 44 ;
     atmun:votesKPOe 7 ;
@@ -66763,12 +66150,10 @@ atmun:Hippach a atmun:Municipality ;
     atmun:validBallots 624 ;
     atmun:votesFPOe 71 ;
     atmun:votesGruene 25 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 471 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 23 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 23 .
 
 atmun:Hochwolkersdorf a atmun:Municipality ;
     rdfs:label "Hochwolkersdorf" ;
@@ -66789,7 +66174,6 @@ atmun:Hochwolkersdorf a atmun:Municipality ;
     atmun:validBallots 633 ;
     atmun:votesFPOe 96 ;
     atmun:votesGruene 36 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 322 ;
     atmun:votesPilz 7 ;
@@ -66819,8 +66203,7 @@ atmun:Hohe_Wand a atmun:Municipality ;
     atmun:votesNeos 65 ;
     atmun:votesOeVP 391 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 105 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 105 .
 
 <http://municipalities.austria.at/Hohenwarth_Mühlbach_a.M.> a atmun:Municipality ;
     rdfs:label "Hohenwarth-Mühlbach a.M." ;
@@ -66871,8 +66254,7 @@ atmun:Hollenstein_an_der_Ybbs a atmun:Municipality ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 507 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 243 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 243 .
 
 atmun:Häselgehr a atmun:Municipality ;
     rdfs:label "Häselgehr" ;
@@ -66893,12 +66275,10 @@ atmun:Häselgehr a atmun:Municipality ;
     atmun:validBallots 264 ;
     atmun:votesFPOe 38 ;
     atmun:votesGruene 19 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 170 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 17 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 17 .
 
 atmun:Hörsching a atmun:Municipality ;
     rdfs:label "Hörsching" ;
@@ -67027,8 +66407,7 @@ atmun:Jerzens a atmun:Municipality ;
     atmun:votesNeos 15 ;
     atmun:votesOeVP 304 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 25 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 25 .
 
 atmun:Jochberg a atmun:Municipality ;
     rdfs:label "Jochberg" ;
@@ -67053,8 +66432,7 @@ atmun:Jochberg a atmun:Municipality ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 416 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 84 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 84 .
 
 atmun:Judenburg a atmun:Municipality ;
     rdfs:label "Judenburg" ;
@@ -67101,12 +66479,10 @@ atmun:Kaprun a atmun:Municipality ;
     atmun:validBallots 1306 ;
     atmun:votesFPOe 117 ;
     atmun:votesGruene 88 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 105 ;
     atmun:votesOeVP 649 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 336 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 336 .
 
 atmun:Kaunerberg a atmun:Municipality ;
     rdfs:label "Kaunerberg" ;
@@ -67127,12 +66503,10 @@ atmun:Kaunerberg a atmun:Municipality ;
     atmun:validBallots 203 ;
     atmun:votesFPOe 15 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 156 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 11 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 11 .
 
 atmun:Kematen_an_der_Krems a atmun:Municipality ;
     rdfs:label "Kematen an der Krems" ;
@@ -67727,7 +67101,6 @@ atmun:Leithaprodersdorf a atmun:Municipality ;
     atmun:votesCPOe 1 ;
     atmun:votesFPOe 87 ;
     atmun:votesGruene 39 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 396 ;
     atmun:votesPilz 12 ;
@@ -67835,8 +67208,7 @@ atmun:Lesachtal a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 474 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 113 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 113 .
 
 atmun:Lilienfeld a atmun:Municipality ;
     rdfs:label "Lilienfeld" ;
@@ -67881,7 +67253,6 @@ atmun:Litzelsdorf a atmun:Municipality ;
     atmun:municipalityId 10909 ;
     atmun:spatialId "G10909" ;
     atmun:validBallots 680 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 202 ;
     atmun:votesGruene 65 ;
     atmun:votesKPOe 4 ;
@@ -68149,8 +67520,7 @@ atmun:Markt_Allhau a atmun:Municipality ;
     atmun:votesNeos 68 ;
     atmun:votesOeVP 384 ;
     atmun:votesPilz 14 ;
-    atmun:votesSPOe 293 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 293 .
 
 atmun:Mattsee a atmun:Municipality ;
     rdfs:label "Mattsee" ;
@@ -68509,7 +67879,6 @@ atmun:Munderfing a atmun:Municipality ;
     atmun:validBallots 1382 ;
     atmun:votesFPOe 295 ;
     atmun:votesGruene 113 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 80 ;
     atmun:votesOeVP 594 ;
     atmun:votesPilz 17 ;
@@ -68555,13 +67924,11 @@ atmun:Musau a atmun:Municipality ;
     atmun:electionParticipationRate 0.6431 ;
     atmun:eligibleVoters 283 ;
     atmun:hasNeighborCount 7 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70822 ;
     atmun:spatialId "G70822" ;
     atmun:validBallots 182 ;
     atmun:votesFPOe 17 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 13 ;
     atmun:votesOeVP 110 ;
     atmun:votesPilz 3 ;
@@ -68873,7 +68240,6 @@ atmun:Oberdrauburg a atmun:Municipality ;
     atmun:validBallots 601 ;
     atmun:votesFPOe 127 ;
     atmun:votesGruene 41 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 21 ;
     atmun:votesOeVP 278 ;
     atmun:votesPilz 13 ;
@@ -69192,8 +68558,7 @@ atmun:Pollham a atmun:Municipality ;
     atmun:votesNeos 30 ;
     atmun:votesOeVP 221 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 59 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 59 .
 
 atmun:Pottenstein a atmun:Municipality ;
     rdfs:label "Pottenstein" ;
@@ -69370,12 +68735,10 @@ atmun:Raach_am_Hochgebirge a atmun:Municipality ;
     atmun:validBallots 189 ;
     atmun:votesFPOe 39 ;
     atmun:votesGruene 7 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 1 ;
     atmun:votesOeVP 115 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 25 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 25 .
 
 atmun:Raasdorf a atmun:Municipality ;
     rdfs:label "Raasdorf" ;
@@ -69400,8 +68763,7 @@ atmun:Raasdorf a atmun:Municipality ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 182 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 65 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 65 .
 
 atmun:Radstadt a atmun:Municipality ;
     rdfs:label "Radstadt" ;
@@ -69526,12 +68888,10 @@ atmun:Ratten a atmun:Municipality ;
     atmun:validBallots 625 ;
     atmun:votesFPOe 95 ;
     atmun:votesGruene 22 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 324 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 155 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 155 .
 
 atmun:Rauchwart a atmun:Municipality ;
     rdfs:label "Rauchwart" ;
@@ -69550,10 +68910,8 @@ atmun:Rauchwart a atmun:Municipality ;
     atmun:municipalityId 10427 ;
     atmun:spatialId "G10427" ;
     atmun:validBallots 271 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 71 ;
     atmun:votesGruene 9 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 2 ;
     atmun:votesOeVP 82 ;
     atmun:votesPilz 2 ;
@@ -69834,7 +69192,6 @@ atmun:Ried_im_Oberinntal a atmun:Municipality ;
     atmun:electionParticipationRate 0.5601 ;
     atmun:eligibleVoters 907 ;
     atmun:hasNeighborCount 7 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70620 ;
     atmun:spatialId "G70620" ;
     atmun:validBallots 508 ;
@@ -69844,8 +69201,7 @@ atmun:Ried_im_Oberinntal a atmun:Municipality ;
     atmun:votesNeos 29 ;
     atmun:votesOeVP 313 ;
     atmun:votesPilz 11 ;
-    atmun:votesSPOe 43 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 43 .
 
 atmun:Riegersburg a atmun:Municipality ;
     rdfs:label "Riegersburg" ;
@@ -69918,12 +69274,10 @@ atmun:Rohr_im_Gebirge a atmun:Municipality ;
     atmun:validBallots 253 ;
     atmun:votesFPOe 42 ;
     atmun:votesGruene 17 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 9 ;
     atmun:votesOeVP 149 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 34 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 34 .
 
 atmun:Rohrbach_an_der_Lafnitz a atmun:Municipality ;
     rdfs:label "Rohrbach an der Lafnitz" ;
@@ -70000,8 +69354,7 @@ atmun:Ruden a atmun:Municipality ;
     atmun:votesNeos 20 ;
     atmun:votesOeVP 259 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 261 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 261 .
 
 atmun:Röthis a atmun:Municipality ;
     rdfs:label "Röthis" ;
@@ -70131,8 +69484,7 @@ atmun:Sankt_Andrä_am_Zicksee a atmun:Municipality ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 405 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 220 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 220 .
 
 atmun:Sankt_Johann_in_der_Haide a atmun:Municipality ;
     rdfs:label "Sankt Johann in der Haide" ;
@@ -70177,7 +69529,6 @@ atmun:Sankt_Michael_im_Burgenland a atmun:Municipality ;
     atmun:municipalityId 10413 ;
     atmun:spatialId "G10413" ;
     atmun:validBallots 608 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 106 ;
     atmun:votesGruene 29 ;
     atmun:votesKPOe 1 ;
@@ -70258,7 +69609,6 @@ atmun:Scharnitz a atmun:Municipality ;
     atmun:validBallots 445 ;
     atmun:votesFPOe 75 ;
     atmun:votesGruene 49 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 29 ;
     atmun:votesOeVP 223 ;
     atmun:votesPilz 9 ;
@@ -70418,8 +69768,7 @@ atmun:Schönberg_im_Stubaital a atmun:Municipality ;
     atmun:votesNeos 35 ;
     atmun:votesOeVP 226 ;
     atmun:votesPilz 4 ;
-    atmun:votesSPOe 40 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 40 .
 
 atmun:Schönbühel_Aggsbach a atmun:Municipality ;
     rdfs:label "Schönbühel-Aggsbach" ;
@@ -70516,7 +69865,6 @@ atmun:Sieggraben a atmun:Municipality ;
     atmun:municipalityId 10613 ;
     atmun:spatialId "G10613" ;
     atmun:validBallots 725 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 152 ;
     atmun:votesGruene 24 ;
     atmun:votesKPOe 4 ;
@@ -70575,8 +69923,7 @@ atmun:Silbertal a atmun:Municipality ;
     atmun:votesNeos 33 ;
     atmun:votesOeVP 214 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 50 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 50 .
 
 atmun:Silz a atmun:Municipality ;
     rdfs:label "Silz" ;
@@ -70887,8 +70234,7 @@ atmun:St._Johann_am_Walde a atmun:Municipality ;
     atmun:votesNeos 45 ;
     atmun:votesOeVP 405 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 214 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 214 .
 
 atmun:St._Leonhard_am_Hornerwald a atmun:Municipality ;
     rdfs:label "St. Leonhard am Hornerwald" ;
@@ -70991,8 +70337,7 @@ atmun:St._Martin_im_Innkreis a atmun:Municipality ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 280 ;
     atmun:votesPilz 6 ;
-    atmun:votesSPOe 114 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 114 .
 
 atmun:St._Peter_am_Wimberg a atmun:Municipality ;
     rdfs:label "St. Peter am Wimberg" ;
@@ -71091,7 +70436,6 @@ atmun:Stall a atmun:Municipality ;
     atmun:validBallots 781 ;
     atmun:votesFPOe 294 ;
     atmun:votesGruene 32 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 287 ;
     atmun:votesPilz 7 ;
@@ -71252,8 +70596,7 @@ atmun:Stoob a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 303 ;
     atmun:votesPilz 7 ;
-    atmun:votesSPOe 320 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 320 .
 
 atmun:Straden a atmun:Municipality ;
     rdfs:label "Straden" ;
@@ -71510,12 +70853,10 @@ atmun:Thomasberg a atmun:Municipality ;
     atmun:validBallots 764 ;
     atmun:votesFPOe 173 ;
     atmun:votesGruene 32 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 23 ;
     atmun:votesOeVP 416 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 110 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 110 .
 
 atmun:Tillmitsch a atmun:Municipality ;
     rdfs:label "Tillmitsch" ;
@@ -71562,7 +70903,6 @@ atmun:Tobadill a atmun:Municipality ;
     atmun:validBallots 236 ;
     atmun:votesFPOe 25 ;
     atmun:votesGruene 15 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 150 ;
     atmun:votesPilz 2 ;
@@ -71718,7 +71058,6 @@ atmun:Ungenach a atmun:Municipality ;
     atmun:validBallots 838 ;
     atmun:votesFPOe 151 ;
     atmun:votesGruene 132 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 386 ;
     atmun:votesPilz 13 ;
@@ -71851,9 +71190,7 @@ atmun:Wald_am_Schoberpaß a atmun:Municipality ;
     atmun:votesKPOe 2 ;
     atmun:votesNeos 7 ;
     atmun:votesOeVP 154 ;
-    atmun:votesPilz 0 ;
-    atmun:votesSPOe 73 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 73 .
 
 atmun:Weitensfeld_im_Gurktal a atmun:Municipality ;
     rdfs:label "Weitensfeld im Gurktal" ;
@@ -71904,8 +71241,7 @@ atmun:Weitersfeld a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 691 ;
     atmun:votesPilz 15 ;
-    atmun:votesSPOe 76 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 76 .
 
 atmun:Weißensee a atmun:Municipality ;
     rdfs:label "Weißensee" ;
@@ -71926,12 +71262,10 @@ atmun:Weißensee a atmun:Municipality ;
     atmun:validBallots 380 ;
     atmun:votesFPOe 72 ;
     atmun:votesGruene 23 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 46 ;
     atmun:votesOeVP 197 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 39 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 39 .
 
 atmun:Weißkirchen_an_der_Traun a atmun:Municipality ;
     rdfs:label "Weißkirchen an der Traun" ;
@@ -72208,7 +71542,6 @@ atmun:Wolfau a atmun:Municipality ;
     atmun:municipalityId 10928 ;
     atmun:spatialId "G10928" ;
     atmun:validBallots 788 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 188 ;
     atmun:votesGruene 53 ;
     atmun:votesKPOe 3 ;
@@ -72287,7 +71620,6 @@ atmun:Wulkaprodersdorf a atmun:Municipality ;
     atmun:municipalityId 10319 ;
     atmun:spatialId "G10319" ;
     atmun:validBallots 1099 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 105 ;
     atmun:votesGruene 125 ;
     atmun:votesKPOe 5 ;
@@ -72398,8 +71730,7 @@ atmun:Zell_am_Ziller a atmun:Municipality ;
     atmun:votesNeos 53 ;
     atmun:votesOeVP 338 ;
     atmun:votesPilz 10 ;
-    atmun:votesSPOe 102 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 102 .
 
 atmun:Zell_an_der_Pram a atmun:Municipality ;
     rdfs:label "Zell an der Pram" ;
@@ -72688,7 +72019,6 @@ atmun:Außervillgraten a atmun:Municipality ;
     atmun:validBallots 458 ;
     atmun:votesFPOe 36 ;
     atmun:votesGruene 30 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 335 ;
     atmun:votesPilz 4 ;
@@ -73665,8 +72995,7 @@ atmun:Göpfritz_an_der_Wild a atmun:Municipality ;
     atmun:votesNeos 42 ;
     atmun:votesOeVP 566 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 168 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 168 .
 
 atmun:Haidershofen a atmun:Municipality ;
     rdfs:label "Haidershofen" ;
@@ -73904,7 +73233,6 @@ atmun:Hopfgarten_in_Defereggen a atmun:Municipality ;
     atmun:validBallots 350 ;
     atmun:votesFPOe 36 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 22 ;
     atmun:votesOeVP 268 ;
     atmun:votesPilz 3 ;
@@ -73979,7 +73307,6 @@ atmun:Kaunertal a atmun:Municipality ;
     atmun:electionParticipationRate 0.6473 ;
     atmun:eligibleVoters 465 ;
     atmun:hasNeighborCount 8 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70611 ;
     atmun:spatialId "G70611" ;
     atmun:validBallots 301 ;
@@ -73989,8 +73316,7 @@ atmun:Kaunertal a atmun:Municipality ;
     atmun:votesNeos 17 ;
     atmun:votesOeVP 235 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 15 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 15 .
 
 atmun:Kilb a atmun:Municipality ;
     rdfs:label "Kilb" ;
@@ -74205,8 +73531,7 @@ atmun:Lambrechten a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 340 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 64 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 64 .
 
 atmun:Landl a atmun:Municipality ;
     rdfs:label "Landl" ;
@@ -74255,7 +73580,6 @@ atmun:Langen_bei_Bregenz a atmun:Municipality ;
     atmun:validBallots 668 ;
     atmun:votesFPOe 120 ;
     atmun:votesGruene 70 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 66 ;
     atmun:votesOeVP 358 ;
     atmun:votesPilz 7 ;
@@ -74718,8 +74042,7 @@ atmun:Neukirchen_bei_Lambach a atmun:Municipality ;
     atmun:votesNeos 37 ;
     atmun:votesOeVP 204 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 69 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 69 .
 
 atmun:Oberndorf_an_der_Melk a atmun:Municipality ;
     rdfs:label "Oberndorf an der Melk" ;
@@ -75121,7 +74444,6 @@ atmun:Raggal a atmun:Municipality ;
     atmun:validBallots 407 ;
     atmun:votesFPOe 38 ;
     atmun:votesGruene 44 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 38 ;
     atmun:votesOeVP 255 ;
     atmun:votesPilz 9 ;
@@ -75797,12 +75119,10 @@ atmun:Stanzach a atmun:Municipality ;
     atmun:validBallots 209 ;
     atmun:votesFPOe 31 ;
     atmun:votesGruene 26 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 18 ;
     atmun:votesOeVP 111 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 17 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 17 .
 
 atmun:Steinbach_am_Attersee a atmun:Municipality ;
     rdfs:label "Steinbach am Attersee" ;
@@ -75828,8 +75148,7 @@ atmun:Steinbach_am_Attersee a atmun:Municipality ;
     atmun:votesNeos 26 ;
     atmun:votesOeVP 216 ;
     atmun:votesPilz 2 ;
-    atmun:votesSPOe 71 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 71 .
 
 atmun:Steinberg_Dörfl a atmun:Municipality ;
     rdfs:label "Steinberg-Dörfl" ;
@@ -75856,8 +75175,7 @@ atmun:Steinberg_Dörfl a atmun:Municipality ;
     atmun:votesNeos 39 ;
     atmun:votesOeVP 356 ;
     atmun:votesPilz 14 ;
-    atmun:votesSPOe 206 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 206 .
 
 atmun:Straß_im_Attergau a atmun:Municipality ;
     rdfs:label "Straß im Attergau" ;
@@ -76100,8 +75418,7 @@ atmun:Tragöß_Sankt_Katharein a atmun:Municipality ;
     atmun:votesNeos 53 ;
     atmun:votesOeVP 394 ;
     atmun:votesPilz 41 ;
-    atmun:votesSPOe 259 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 259 .
 
 atmun:Traismauer a atmun:Municipality ;
     rdfs:label "Traismauer" ;
@@ -76181,8 +75498,7 @@ atmun:Tux a atmun:Municipality ;
     atmun:votesNeos 56 ;
     atmun:votesOeVP 618 ;
     atmun:votesPilz 8 ;
-    atmun:votesSPOe 75 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 75 .
 
 atmun:Uttendorf a atmun:Municipality ;
     rdfs:label "Uttendorf" ;
@@ -77046,8 +76362,7 @@ atmun:Flaurling a atmun:Municipality ;
     atmun:votesNeos 50 ;
     atmun:votesOeVP 292 ;
     atmun:votesPilz 18 ;
-    atmun:votesSPOe 95 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 95 .
 
 atmun:Friesach a atmun:Municipality ;
     rdfs:label "Friesach" ;
@@ -77271,8 +76586,7 @@ atmun:Güssing a atmun:Municipality ;
     atmun:votesNeos 92 ;
     atmun:votesOeVP 876 ;
     atmun:votesPilz 21 ;
-    atmun:votesSPOe 508 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 508 .
 
 atmun:Hagenbrunn a atmun:Municipality ;
     rdfs:label "Hagenbrunn" ;
@@ -77597,18 +76911,15 @@ atmun:Kaisers a atmun:Municipality ;
     atmun:electionParticipationRate 0.7069 ;
     atmun:eligibleVoters 58 ;
     atmun:hasNeighborCount 9 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70819 ;
     atmun:spatialId "G70819" ;
     atmun:validBallots 41 ;
     atmun:votesFPOe 4 ;
     atmun:votesGruene 4 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 4 ;
     atmun:votesOeVP 25 ;
     atmun:votesPilz 3 ;
-    atmun:votesSPOe 1 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 1 .
 
 atmun:Kallham a atmun:Municipality ;
     rdfs:label "Kallham" ;
@@ -77742,7 +77053,6 @@ atmun:Kukmirn a atmun:Municipality ;
     atmun:municipalityId 10408 ;
     atmun:spatialId "G10408" ;
     atmun:validBallots 1101 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 224 ;
     atmun:votesGruene 79 ;
     atmun:votesKPOe 9 ;
@@ -77967,7 +77277,6 @@ atmun:Mischendorf a atmun:Municipality ;
     atmun:municipalityId 10914 ;
     atmun:spatialId "G10914" ;
     atmun:validBallots 1004 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 136 ;
     atmun:votesGruene 29 ;
     atmun:votesKPOe 3 ;
@@ -78082,7 +77391,6 @@ atmun:Navis a atmun:Municipality ;
     atmun:validBallots 1024 ;
     atmun:votesFPOe 158 ;
     atmun:votesGruene 47 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 48 ;
     atmun:votesOeVP 647 ;
     atmun:votesPilz 10 ;
@@ -78560,7 +77868,6 @@ atmun:Saalbach_Hinterglemm a atmun:Municipality ;
     atmun:validBallots 1234 ;
     atmun:votesFPOe 147 ;
     atmun:votesGruene 36 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 86 ;
     atmun:votesOeVP 862 ;
     atmun:votesPilz 13 ;
@@ -78812,12 +78119,10 @@ atmun:St._Sigmund_im_Sellrain a atmun:Municipality ;
     atmun:validBallots 94 ;
     atmun:votesFPOe 13 ;
     atmun:votesGruene 1 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 3 ;
     atmun:votesOeVP 63 ;
     atmun:votesPilz 1 ;
-    atmun:votesSPOe 13 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 13 .
 
 atmun:St._Veit_an_der_Gölsen a atmun:Municipality ;
     rdfs:label "St. Veit an der Gölsen" ;
@@ -78866,7 +78171,6 @@ atmun:Stadtschlaining a atmun:Municipality ;
     atmun:municipalityId 10923 ;
     atmun:spatialId "G10923" ;
     atmun:validBallots 1101 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 221 ;
     atmun:votesGruene 42 ;
     atmun:votesKPOe 4 ;
@@ -78891,13 +78195,11 @@ atmun:Stummerberg a atmun:Municipality ;
     atmun:electionParticipationRate 0.5514 ;
     atmun:eligibleVoters 671 ;
     atmun:hasNeighborCount 9 ;
-    atmun:invalidBallots 0 ;
     atmun:municipalityId 70932 ;
     atmun:spatialId "G70932" ;
     atmun:validBallots 370 ;
     atmun:votesFPOe 67 ;
     atmun:votesGruene 11 ;
-    atmun:votesKPOe 0 ;
     atmun:votesNeos 8 ;
     atmun:votesOeVP 259 ;
     atmun:votesPilz 4 ;
@@ -79147,7 +78449,6 @@ atmun:Zemendorf_Stöttera a atmun:Municipality ;
     atmun:municipalityId 10618 ;
     atmun:spatialId "G10618" ;
     atmun:validBallots 703 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 94 ;
     atmun:votesGruene 34 ;
     atmun:votesKPOe 1 ;
@@ -79176,15 +78477,13 @@ atmun:Zillingtal a atmun:Municipality ;
     atmun:municipalityId 10322 ;
     atmun:spatialId "G10322" ;
     atmun:validBallots 520 ;
-    atmun:votesCPOe 0 ;
     atmun:votesFPOe 84 ;
     atmun:votesGruene 60 ;
     atmun:votesKPOe 3 ;
     atmun:votesNeos 32 ;
     atmun:votesOeVP 169 ;
     atmun:votesPilz 9 ;
-    atmun:votesSPOe 163 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 163 .
 
 atmun:Zurndorf a atmun:Municipality ;
     rdfs:label "Zurndorf" ;
@@ -79559,8 +78858,7 @@ atmun:Fügenberg a atmun:Municipality ;
     atmun:votesNeos 19 ;
     atmun:votesOeVP 382 ;
     atmun:votesPilz 13 ;
-    atmun:votesSPOe 36 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 36 .
 
 atmun:Gaming a atmun:Municipality ;
     rdfs:label "Gaming" ;
@@ -80028,8 +79326,7 @@ atmun:Stadl_Predlitz a atmun:Municipality ;
     atmun:votesNeos 36 ;
     atmun:votesOeVP 372 ;
     atmun:votesPilz 5 ;
-    atmun:votesSPOe 254 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 254 .
 
 atmun:Sölk a atmun:Municipality ;
     rdfs:label "Sölk" ;
@@ -80057,8 +79354,7 @@ atmun:Sölk a atmun:Municipality ;
     atmun:votesNeos 27 ;
     atmun:votesOeVP 402 ;
     atmun:votesPilz 12 ;
-    atmun:votesSPOe 113 ;
-    atmun:votesWandl 0 .
+    atmun:votesSPOe 113 .
 
 atmun:Söll a atmun:Municipality ;
     rdfs:label "Söll" ;
@@ -81147,8 +80443,7 @@ atmun:Warth a atmun:Municipality ;
     atmun:eligibleVoters 140,
         1248 ;
     atmun:hasNeighborCount 4 ;
-    atmun:invalidBallots 0,
-        13 ;
+    atmun:invalidBallots 13 ;
     atmun:municipalityId 31843,
         80239 ;
     atmun:spatialId "G31843",
@@ -81159,18 +80454,15 @@ atmun:Warth a atmun:Municipality ;
         141 ;
     atmun:votesGruene 2,
         77 ;
-    atmun:votesKPOe 0,
-        2 ;
-    atmun:votesNeos 0,
-        46 ;
+    atmun:votesKPOe 2 ;
+    atmun:votesNeos 46 ;
     atmun:votesOeVP 59,
         531 ;
     atmun:votesPilz 1,
         8 ;
     atmun:votesSPOe 4,
         112 ;
-    atmun:votesWandl 0,
-        4 .
+    atmun:votesWandl 4 .
 
 atmun:Wiener_Neustadt a atmun:Municipality ;
     rdfs:label "Wiener Neustadt" ;

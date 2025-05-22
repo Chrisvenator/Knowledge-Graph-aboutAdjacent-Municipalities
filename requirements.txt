@@ -10,3 +10,4 @@ geopandas~=1.0.1
 libpysal~=4.13.0
 rdflib~=7.1.4
 tqdm~=4.67.1
+requests~=2.32.3
