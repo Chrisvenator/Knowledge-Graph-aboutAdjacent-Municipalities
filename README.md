@@ -54,12 +54,38 @@ specifying the folder name on the left side_
 
 ## Usage Instructions
 
-### __Network Graph Tab__ 
+### Geographic Map Tab
+
+This tab now offers a lean, fast-loading map for exploring inter-municipality relationships.
+It tries to predict how similar the municipalities are based on [Nationalratswahl Voting](data/nrw2019.json), 
+[Population](data/Ausgaben_Oesterreichische_Gemeinden_2019.csv), 
+[Income](data/Ausgaben_Oesterreichische_Gemeinden_2019.csv), 
+[Ausgaben](data/Ausgaben_Oesterreichische_Gemeinden_2019.csv),
+[Adjacency](data/adjacent_municipalities_names.json).
+
+
+
+Here is how the same map looks, when the coloring is based on total similarity.
+Overall, this view emphasises raw similarity values; since most scores cluster near the top, almost everything appears bright green.
+![assets/4000_municipalities_and_absolute_coloring.png](assets/4000_municipalities_and_absolute_coloring.png)
+
+
+
+Example of how 4000 municipalities look that are similar. The redder, the unsimilar the municipalities become. 
+Note that this picture uses relative colors.
+This second screenshot demonstrates the “relative” (rank-based) palette: the colour scale stretches across the entire dataset so users immediately see a spectrum from strongest (green) to weakest (red) links, making differences far easier to spot than in the absolute view.
+![assets/4000_municipalities_and_relative_coloring.png](assets/4000_municipalities_and_relative_coloring.png)
+
+
+
+### Network Graph Tab 
   - interactive Plotly-based network visualisation with  
   - Node sizing based on connection degree  
   - Colour-coded nodes based on connectivity  
   - Adjustable node limits and relation filtering  
   - Network statistics (density, average degree, etc.)
+
+![assets/Network_Graph_exmaple.png](assets/Network_Graph_exmaple.png)
 
 
 ### Attributes Analysis Tab
