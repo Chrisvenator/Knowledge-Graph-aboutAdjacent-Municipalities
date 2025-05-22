@@ -38,44 +38,61 @@ specifying the folder name on the left side_
 
 ## Requirements
 
-- Python 3.7+
-- PyTorch
-- PyKEEN
-- Streamlit
-- NetworkX
-- Matplotlib
-- Pandas
+- streamlit
+- torch
+- pykeen>
+- networkx
+- matplotlib
+- pandas
 - Pillow
+- numpy
+- geopandas
+- libpysal
+- rdflib
+- tqdm
+- requests
 
 ## Usage Instructions
 
-### Link Prediction
+### __Network Graph Tab__ 
+  - interactive Plotly-based network visualisation with  
+  - Node sizing based on connection degree  
+  - Colour-coded nodes based on connectivity  
+  - Adjustable node limits and relation filtering  
+  - Network statistics (density, average degree, etc.)
 
-1. Search and select a head entity (municipality)
-2. Search and select a relation type
-3. Click "Predict Links" to find potential tail entities
-4. View results in table and graph format
 
-### Similar Entity Search
+### Attributes Analysis Tab
+  - comprehensive attribute analysis with  
+  - Summary statistics for all attributes  
+  - Interactive attribute selection and visualisation  
+  - Histogram distributions for numeric attributes  
+  - Sample-data viewing and full attribute tables  
 
-1. Search and select an entity
-2. Click "Find Similar Entities" to discover municipalities with similar embeddings
-3. View results in table and graph format
+
+### Similar Entities Tab
+  - TransE-model-based similarity finding with  
+  - Entity-embedding similarity calculation  
+  - Configurable numb
 
 ### Entity Browser
+1. Search entities by name  
+2. View all matching entities and their URIs  
 
-1. Search entities by name
-2. View all matching entities and their URIs
 
 ## Model Directory Structure
 
 Your model directory should have the following files:
 
 ```
-model/
-├── model_state.pt      # PyTorch state dict of the trained model
-├── model_config.json   # Model configuration (model_class, embedding_dim, etc.)
-└── mappings.json       # Entity and relation mappings
+project-root/
+├──dataset.ttl
+├──dataset_entities_only.ttl
+├──dataset_attributes.json
+└──model/
+   ├── model_state.pt      # PyTorch state dict of the trained model
+   ├── model_config.json   # Model configuration (model_class, embedding_dim, etc.)
+   └── mappings.json       # Entity and relation mappings
 ```
 
 The `model_config.json` should include:
